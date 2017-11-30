@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aol.one.publishers.android</groupId>
+  <artifactId>controls-lightweight</artifactId>
+  <versioning>
+    <versions>
+      <version>1.15-SNAPSHOT</version>
+      <version>1.16-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180507154949</lastUpdated>
+  </versioning>
+</metadata>

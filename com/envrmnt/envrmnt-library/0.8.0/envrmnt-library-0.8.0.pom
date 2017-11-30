@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.envrmnt</groupId>
+  <artifactId>envrmnt-library</artifactId>
+  <version>0.8.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.volley</groupId>
+      <artifactId>volley</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.vr</groupId>
+      <artifactId>sdk-videowidget</artifactId>
+      <version>1.40.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.timber</groupId>
+      <artifactId>timber</artifactId>
+      <version>4.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

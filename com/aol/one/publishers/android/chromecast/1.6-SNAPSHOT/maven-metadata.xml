@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aol.one.publishers.android</groupId>
+  <artifactId>chromecast</artifactId>
+  <version>1.6-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180315.133653</timestamp>
+      <buildNumber>7</buildNumber>
+    </snapshot>
+    <lastUpdated>20180315133653</lastUpdated>
+  </versioning>
+</metadata>

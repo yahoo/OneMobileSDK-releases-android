@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aol.one.publishers.android</groupId>
+  <artifactId>controls-lw</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20171114.144048</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20171114144048</lastUpdated>
+  </versioning>
+</metadata>

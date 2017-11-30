@@ -1,0 +1,1345 @@
+[
+  {
+    "modifiers": [
+      "public",
+      "abstract"
+    ],
+    "name": "com.aol.mobile.sdk.controls.AdControls",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "setListener",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "listener",
+            "type": "com.aol.mobile.sdk.controls.AdControls$Listener"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "getView",
+        "returnType": "android.view.View",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "render",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "adControlsVM",
+            "type": "com.aol.mobile.sdk.controls.viewmodel.AdControlsVM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "abstract",
+      "static"
+    ],
+    "name": "com.aol.mobile.sdk.controls.AdControls$Listener",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onButtonClick",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "button",
+            "type": "com.aol.mobile.sdk.controls.AdControlsButton"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onTap",
+        "returnType": "void",
+        "params": []
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "final"
+    ],
+    "name": "com.aol.mobile.sdk.controls.AdControlsButton",
+    "fields": [
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "PLAY",
+        "type": "com.aol.mobile.sdk.controls.AdControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "PAUSE",
+        "type": "com.aol.mobile.sdk.controls.AdControlsButton"
+      }
+    ],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "static"
+        ],
+        "name": "values",
+        "returnType": "com.aol.mobile.sdk.controls.AdControlsButton[]",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public",
+          "static"
+        ],
+        "name": "valueOf",
+        "returnType": "com.aol.mobile.sdk.controls.AdControlsButton",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "name",
+            "type": "java.lang.String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "final"
+    ],
+    "name": "com.aol.mobile.sdk.controls.ControlsButton",
+    "fields": [
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "PLAY",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "PAUSE",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "REPLAY",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "NEXT",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "PREVIOUS",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "SEEK_FORWARD",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "SEEK_BACKWARD",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      },
+      {
+        "modifiers": [
+          "public",
+          "static",
+          "final"
+        ],
+        "name": "COMPASS",
+        "type": "com.aol.mobile.sdk.controls.ControlsButton"
+      }
+    ],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "static"
+        ],
+        "name": "values",
+        "returnType": "com.aol.mobile.sdk.controls.ControlsButton[]",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public",
+          "static"
+        ],
+        "name": "valueOf",
+        "returnType": "com.aol.mobile.sdk.controls.ControlsButton",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "name",
+            "type": "java.lang.String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "abstract"
+    ],
+    "name": "com.aol.mobile.sdk.controls.ImageLoader",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "load",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "url",
+            "type": "java.lang.String"
+          },
+          {
+            "modifiers": [],
+            "name": "imageView",
+            "type": "android.widget.ImageView"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "cancelLoad",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "imageView",
+            "type": "android.widget.ImageView"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "abstract"
+    ],
+    "name": "com.aol.mobile.sdk.controls.PlayerControls",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "setListener",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "listener",
+            "type": "com.aol.mobile.sdk.controls.PlayerControls$Listener"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "render",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "viewModel",
+            "type": "com.aol.mobile.sdk.controls.viewmodel.PlayerControlsVM"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "getView",
+        "returnType": "android.view.View",
+        "params": []
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "abstract",
+      "static"
+    ],
+    "name": "com.aol.mobile.sdk.controls.PlayerControls$Listener",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onButtonClick",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "button",
+            "type": "com.aol.mobile.sdk.controls.ControlsButton"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onScroll",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "distanceX",
+            "type": "float"
+          },
+          {
+            "modifiers": [],
+            "name": "distanceY",
+            "type": "float"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onSeekStarted",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onSeekTo",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "position",
+            "type": "double"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onSeekStopped",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onAudioTrackSelected",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "index",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "onCcTrackSelected",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "index",
+            "type": "int"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "abstract"
+    ],
+    "name": "com.aol.mobile.sdk.controls.Themed",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "setMainColor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "color",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public",
+          "abstract"
+        ],
+        "name": "setAccentColor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "color",
+            "type": "int"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public",
+      "final"
+    ],
+    "name": "com.aol.mobile.sdk.controls.view.AdControlsView",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          },
+          {
+            "modifiers": [],
+            "name": "attrs",
+            "type": "android.util.AttributeSet"
+          },
+          {
+            "modifiers": [],
+            "name": "defStyleAttr",
+            "type": "int"
+          },
+          {
+            "modifiers": [],
+            "name": "defStyleRes",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          },
+          {
+            "modifiers": [],
+            "name": "attrs",
+            "type": "android.util.AttributeSet"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          },
+          {
+            "modifiers": [],
+            "name": "attrs",
+            "type": "android.util.AttributeSet"
+          },
+          {
+            "modifiers": [],
+            "name": "defStyleAttr",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "protected"
+        ],
+        "name": "updateColors",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setListener",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "listener",
+            "type": "com.aol.mobile.sdk.controls.AdControls$Listener"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "getView",
+        "returnType": "android.view.View",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "render",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "adControlsVM",
+            "type": "com.aol.mobile.sdk.controls.viewmodel.AdControlsVM"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setMainColor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "color",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setAccentColor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "color",
+            "type": "int"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public"
+    ],
+    "name": "com.aol.mobile.sdk.controls.view.PlayerControlsView",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          },
+          {
+            "modifiers": [],
+            "name": "attrs",
+            "type": "android.util.AttributeSet"
+          },
+          {
+            "modifiers": [],
+            "name": "defStyleAttr",
+            "type": "int"
+          },
+          {
+            "modifiers": [],
+            "name": "defStyleRes",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          },
+          {
+            "modifiers": [],
+            "name": "attrs",
+            "type": "android.util.AttributeSet"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          },
+          {
+            "modifiers": [],
+            "name": "attrs",
+            "type": "android.util.AttributeSet"
+          },
+          {
+            "modifiers": [],
+            "name": "defStyleAttr",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setListener",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "listener",
+            "type": "com.aol.mobile.sdk.controls.PlayerControls$Listener"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "render",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "viewModel",
+            "type": "com.aol.mobile.sdk.controls.viewmodel.PlayerControlsVM"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setVisibility",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "visibility",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "show",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "hide",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "startTimer",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "cancelTimer",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "getView",
+        "returnType": "android.view.View",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "getSidePanel",
+        "returnType": "com.aol.mobile.sdk.controls.view.SidePanel",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "onTouchEvent",
+        "returnType": "boolean",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "event",
+            "type": "android.view.MotionEvent"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "dispatchTouchEvent",
+        "returnType": "boolean",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "ev",
+            "type": "android.view.MotionEvent"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "dispatchKeyEvent",
+        "returnType": "boolean",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "event",
+            "type": "android.view.KeyEvent"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setImageLoader",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "imageLoader",
+            "type": "com.aol.mobile.sdk.controls.ImageLoader"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setMainColor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "color",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "setAccentColor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "color",
+            "type": "int"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public"
+    ],
+    "name": "com.aol.mobile.sdk.controls.view.SidePanel",
+    "fields": [],
+    "methods": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "context",
+            "type": "android.content.Context"
+          },
+          {
+            "modifiers": [],
+            "name": "attrs",
+            "type": "android.util.AttributeSet"
+          }
+        ]
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "show",
+        "returnType": "void",
+        "params": []
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "hide",
+        "returnType": "void",
+        "params": []
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public"
+    ],
+    "name": "com.aol.mobile.sdk.controls.viewmodel.AdControlsVM",
+    "fields": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isProgressViewVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isPlayButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isPauseButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isAdTimeViewVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerProgress",
+        "type": "double"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerMaxValue",
+        "type": "int"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "currentTimeText",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "timeLeftText",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "durationText",
+        "type": "java.lang.String"
+      }
+    ],
+    "methods": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": []
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public"
+    ],
+    "name": "com.aol.mobile.sdk.controls.viewmodel.PlayerControlsVM",
+    "fields": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isLoading",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isPlayButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isPauseButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isReplayButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isNextButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isNextButtonEnabled",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isPrevButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isPrevButtonEnabled",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isSeekerVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isSeekForwardButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isSeekBackButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isTitleVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isSubtitlesTextVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isCompassViewVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isThumbnailImageVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isStreamPlaying",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isTrackChooserButtonEnabled",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isTrackChooserButtonVisible",
+        "type": "boolean"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerBufferedProgress",
+        "type": "int"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerMaxValue",
+        "type": "int"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerProgress",
+        "type": "double"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "compassLatitude",
+        "type": "double"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "compassLongitude",
+        "type": "double"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerCurrentTimeText",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerTimeLeftText",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "seekerDurationText",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "titleText",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "subtitlesText",
+        "type": "java.lang.CharSequence"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "thumbnailImageUrl",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public",
+          "final"
+        ],
+        "name": "audioTracks",
+        "type": "java.util.LinkedList"
+      },
+      {
+        "modifiers": [
+          "public",
+          "final"
+        ],
+        "name": "ccTracks",
+        "type": "java.util.LinkedList"
+      }
+    ],
+    "methods": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": []
+      }
+    ]
+  },
+  {
+    "modifiers": [
+      "public"
+    ],
+    "name": "com.aol.mobile.sdk.controls.viewmodel.TrackOptionVM",
+    "fields": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "title",
+        "type": "java.lang.String"
+      },
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "isSelected",
+        "type": "boolean"
+      }
+    ],
+    "methods": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "name": "constructor",
+        "returnType": "void",
+        "params": [
+          {
+            "modifiers": [],
+            "name": "title",
+            "type": "java.lang.String"
+          },
+          {
+            "modifiers": [],
+            "name": "isSelected",
+            "type": "boolean"
+          }
+        ]
+      }
+    ]
+  }
+]
