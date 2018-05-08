@@ -1,0 +1,1381 @@
+# OneMobile SDK Sdk release notes
+=================================
+
+Unreleased
+----------
+- Update to new androidCi build plugin
+- Fetch required parameters for BeOn video
+- Fire video-impression pixel (fix for all videos)
+- Enable midroll prefetch for Android
+
+2.21 (2018-04-30 16:12:01 +0300)
+--------------------------------
+- Fix chromecast dependency issue
+- Fixed crash when Chromecast module is not present
+- Parse branded content in video item
+- vcid and mpid parse
+- Add VideoImpressionDetector
+- Fire video-impression pixel
+
+2.20 (2018-04-16 18:20:33 +0300)
+--------------------------------
+- Fix zero width seekbar issue
+- App is crashed when ad is started in the casting mode
+- Removed obsolete Environment entity and all its usages
+- Сontent video playback is not started after midroll
+- AdQuartileDetector update
+- Cue points are not shown on video replay
+- Clean ad properties of vrm params
+- Remove old ad detectors
+- Ad quartiles a re not fired for midroll
+- Fix API changes generation bug
+- Enable new ad detectors
+- Subtitle presentation moved from controls to renderer module
+- Add new ad engine response detector
+- Add new ad engine request detector
+- Add new ad engine request detector
+- Meaningful ids removal
+- Telemetry for VRM
+- fillType and taskState as enums
+- Added message field to video service json error telemetry
+- Ad detector tests naming fix
+- Add ad engine request and response params to state
+- Copyright update
+- Add new ad viewability detector
+- MIT license
+- Show/hide logic
+
+2.19.1 (2018-03-06 17:32:52 +0200)
+----------------------------------
+- Ad clickthrough url embed support
+- EmbedClickThroughUrl and showClickThroughClose features handling
+- Support for features section of Video MS response
+- Add new ad request detector
+- Improved video service response errors telemetry format
+- Add new ad view time detector
+- Add new ad pause-resume detector
+- Add new ad issue detector
+- Send pixels update
+- Ad flow report update
+
+2.19 (2018-02-27 14:39:11 +0200)
+--------------------------------
+- Update submodules to latest versions
+- Fixed false ad request when no ads is used
+- Add new ad finished detector
+- Add new ad started detector
+- Add new ad load-win detector
+
+2.18.1 (2018-02-26 14:08:07 +0200)
+----------------------------------
+- Add new ad click detector
+- Removed parsing of pod size
+- Play/pause during seek will not cause crash
+- New ad quartile detector
+- Accessibility for sidebar
+- Added PlayerState observer
+- Refactored JS telemetry and deleted obsolete code
+- Added video service json parsing error telemetry
+- Transferred telemetry to new format
+- Fill vrm state
+- Added new telemetry entities and serializers
+- Implemented sending of JSON exception telemetry
+- Lock of public API
+- PlayerFragment added as public api
+- Add vrm state
+- Add api changes generation during deployment
+- Removed redundant entries from proguard file
+- Include all public api classes to manifest generation
+- Chromecast app id should not be accessible
+- Update midroll play logic
+- Removing badges from README
+- Midroll markers for android
+- Attaching api tracker plugin
+- Enabling api collector
+- Update Jenkinsfile (#547)
+- Chromecast integration guide (#543)
+
+2.18 (2018-01-18 17:24:59 +0200)
+--------------------------------
+- ExoPlayer update to 2.6.1 3sec bit parameter fix
+- Heartbeat bit parameter fix
+- Playback is paused when app goes to background (#537)
+- Update Jenkinsfile (#541)
+- Update Jenkinsfile
+- Chromecast fix
+- Controls and renderer update
+- Update player UI for that state, when video is being streamed to the chromecast
+- Subtitles telemetry fix
+- Cast trigger fix
+- Subtitles telemetry
+- Update player UI for that state, when video is being streamed to the chromecast
+- Ads click fix
+- License and copyright update, reformat and imports optimization of sources
+- Read isScreenCastingEnabled setting from the video object
+- Enable midroll support for Android
+- Cast test fix
+- Cast fix
+- Build tasks optimization
+- Reverting changes
+- Jenkins checkout with tags v2
+- Reverting changes
+- Jenkins checkout with tags
+- build fix
+- Add GitHub creds (#525)
+- Chromecast module structure update
+- Chromecast telemetry
+- Tests update
+- add slack message
+- Update Jenkinsfile
+- Refactored current behavior
+- Added ability to override config url
+- Update .gitmodules
+- Update to 27th platform API
+- A few video-time.gif trackers are fired when user start/stop Chromecasting
+
+2.17 (2017-11-13 19:18:39 +0200)
+--------------------------------
+- Version 2.17
+- VAST error tracker is fired incorrectly
+- Application is crashed when I try to play restricted video
+- Proguard ui rules
+- Submodule update
+- SDK proguard support and rules
+- SDK proguard support and rules
+- NPE fix regarding renderer id
+- Application is crashed when I try to play restricted video
+- video-time.gif pct param uses coma instead of the point delimiter
+- Submodule git version fix
+- Changelog generation fix
+- Android gradle plugin 3.0.0 support
+- Snapshot build fix
+- Test fixes
+- Chromecast implementation
+- Android gradle plugin update to 3.0.0
+- Opened API for VideoResponse tweaking
+- Fixed tests in base package
+- Fixed view tests
+- Fixed tracking tests
+- Fixed tests in http package
+- Support for snapshots build
+- Tests update
+- Add support for quick renderers integration
+- Add Sdk telemetry
+- README update
+- Kotlin support added
+
+2.16 (Wed Sep 20 19:50:50 2017 +0300)
+-------------------------------------
+- Update renderer version to 2.6.4 and controls version to 1.10 (Exoplayer 2.5.2)
+
+2.15 (2017-09-19 17:32:13 +0300)
+--------------------------------
+- Tests ignorance
+- Tracking reporter update
+- SDK update based on new tracking flow
+- Detectors update
+- Video provider response update
+- Tracking context from video service parsing
+
+2.14.2 (2017-09-13 17:02:18 +0300)
+----------------------------------
+- Merge branch 'master' into OMSDK-113/Add-LIVE-label-to-livestream-videos
+- NPE on track switching
+- Added LIVE label to livestream videos
+- Group audio tracks by language
+
+2.14.1 (2017-09-12 18:34:33 +0300)
+----------------------------------
+- Update renderer version to 2.6.1
+
+2.14 (2017-09-05 18:57:59 +0300)
+--------------------------------
+- Track selection support
+- Fixed tests
+- Added apid param to 3sec and heartbeat trackers
+- Added volume param to 3sec and heartbeat trackers
+- Fixed tests
+- video-time.gif is fired even if content playback was not started
+- Fixed data type for bit, bft, cvt and t params in 3sec and heartbeat pixels
+
+2.13 (Tue Aug 22 17:56:24 2017 +0300)
+-------------------------------------
+- m.fwsitesection param is missed in heartbeat.gif
+- Remove pct param from video-time.gif for livestream videos
+- Merge branch 'master' into OMSDK-147/Disable-qoe-pixels-for-upcoming-release
+- Disable qoe pixels for upcoming release
+- Fix 3 sec pixel for live video
+- QoE url, it, cvt params update
+- Add QoE params to 3-sec tracking pixel
+- Fixed tests
+- Added vcdn parameter to heartbeat pixel
+- OMSDK-131 Create QoE Tracking Pixel Intent
+- Extra renderer check
+- Added bit parameter to heartbeat pixel
+- Added hls video bitrate information to properties
+- Add 'bft' param into heartbeat.gif tracker
+- Tracking base url changes
+- Javascript telemetry implementation
+- OMSDK-131 Create QoE Tracking Pixel Start
+- Duktape disposal on video session end
+- Optimize JS handling
+- OMSDK-102 Create QoE Tracking Pixel Buffer End - Android
+- OMSDK-101 Create QoE Tracking Pixel Buffer Start - Android
+- OMSDK-56 Implement heartbeat pixel for live tracking - Android
+- OMSDK-120 Tracking params fix
+- Tests update
+- JS tracking plugin
+- Duktape lib addition
+- Tests update
+- Split native metrics plugin from CorePlugin
+- Merge branch 'master' into OMSDK-83/Release-notes-generation-scripts-update
+- Change log generator script
+- OMSDK-52 Update pct and t params format
+- Restore public methods
+- Review fixes
+- OMSDK-67 Make Kibana happy (Config M/S response change)
+- OMSDK-45 Add parsing for the new Config/Video services response formats (update)
+- OMSDK-45 Add parsing for the new Config/Video services response formats
+
+2.12 (2017-08-03 18:02:33 +0300)
+--------------------------------
+- Module versions bump
+- README update
+- README update
+- Controls version update
+- Update with link to maven repository
+
+2.12-alpha (2017-07-06 15:13:52 +0300)
+--------------------------------------
+- Tune travis for CD
+- Tune travis for CD
+- Documentation update
+- Changelog update for 2.11 [skip ci]
+
+2.11 (Tue Jun 27 18:52:18 2017 +0300)
+-------------------------------------
+- AOMSDK-1209 Controls and Renderer update
+- AOMSDK-1201 Ad fetching takes too long
+- Changelog update for 2.11-alpha2 [skip ci]
+- Update reference to latest controls binaries
+- AOMSDK-1202 Show ad view only if get ad url
+- AOMSDK-1201 Ad fetching takes too long
+
+2.11-alpha2 (2017-06-26 17:52:31 +0300)
+---------------------------------------
+- Fix touch dispatch policy
+- Fixed ad-view-time.gif tracker having incorrect 'vid' and 'vvuid' on playAtIndex
+- Changelog update for 2.11-alpha [skip ci]
+
+2.11-alpha (2017-06-15 18:44:27 +0300)
+--------------------------------------
+- Renderer module reference update
+- Always dispatch touch to controls view, remove rotation sensor
+- Changelog update for 2.10 [skip ci]
+
+2.10 (Fri Jun 9 18:14:17 2017 +0300)
+------------------------------------
+- AOMSDK-1193 Update Exoplayer to 2.4.1
+- AdProps vide size update
+- AOMSDK-1192 display.gif tracker is fired only when content video is started
+- Tests update
+- AOMSDK-1182 Add Session to State
+- AOMSDK-1176 Update integration guide
+- Changelog update for 2.9 [skip ci]
+
+2.9 (Tue May 23 19:57:25 2017 +0300)
+------------------------------------
+- AOMSDK-1172 Renderer and Controls update
+- AOMSDK-1165 Use ad urls from pods defaultPodSize=0 fix
+- AOMSDK-1168 App is crashed after click on playAtIndex while ad playback
+- AOMSDK-1165 Use ad urls from pods
+- Updates after review
+- AOMSDK-1157 Update VideoRenderer with properties
+- Update renderer to 1.2
+- renderer update
+- renderer update to 1.1
+- Update Changelog
+- Changelog update for 2.8.1 [skip ci]
+- Revert play-services-ads to 10.2.1 because of null on getAdvertisingIdInfo
+- AOMSDK-1156 Restricted video fix
+- update tools and renderer
+- Added reason to VideoProviderResponse
+- com.google.android.gms:play-services-ads-lite update to 10.2.4
+- Restricted videos test fixes
+- Renderer update
+- Restricted videos support
+
+2.8.2 (Fri May 5 16:49:37 2017 +0300)
+-------------------------------------
+- Update renderer to 1.2
+- Exception in case of empty playlist
+- Restore of CameraOrientationSensor
+- Changelog update for 2.8 [skip ci]
+
+2.8 (2017-04-27 18:11:32 +0300)
+-------------------------------
+- Add extra field for VideoProvider and PlayerBuilder
+- Tests update
+- Video list modification support for VideoProviderResponse
+- Implemented ad-view-time.gif tracker
+- Fixed CC button is shown as turned ON for video without subtitles
+- Tests update
+- Dynamic renderers switching
+- ErrorState update
+- MS renderers support
+- Infrastructure update
+- Added renderers parsing support
+- Fixed app crash when watching 360 playlist with ads
+- Added 'ps' param to ads tracking pixels
+- Fixed second ad is not played if the first one gets an error
+- Changelog update for 2.7 [skip ci]
+- Renderer module submodule
+- Renderer module source removal
+
+2.7 (Wed Apr 12 21:56:49 2017 +0300)
+------------------------------------
+- Travis update
+- Fixed tests
+- Implemented parsing of new video model and integrated it into the player
+- Implemented acquiring new video models through http POST method
+- Implemented parsing of new RemoteConfig
+- Controls reference update
+- Sdk test dependencies update
+- Sdk dependencies update 2
+- Sdk dependencies update
+- Move renderer source to new place
+- Module structure
+- AOMSDK-1087 CameraOrientationSensor update
+- Replay fix
+- Do not send advertisementId if it is null
+- Submodule update
+- Move tools to new public repo
+- Amazon advertising id support, manual setup of advertising id
+- Gradle build script split to small common case scripts
+- AOMSDK-1014 Add 'ps' param to ads tracking pixels
+- google play services update
+- added PropertiesTransformer
+- AOMSDK-1066 Move props to player
+- VrmSource access fix
+- Properties update
+- AOMSDK-995/Content-controls-do-not-appear-on-video-replay
+- Changelog update for 2.6 [skip ci]
+
+2.6 (Tue Mar 14 18:00:39 2017 +0200)
+------------------------------------
+- AOMSDK-1036 AdManager refactoring
+- Ignore of TrackingPixelsGenerator
+- Source rebase to new place
+- Scripts update
+- Update or README
+
+2.5 (2017-03-02 16:21:50 +0200)
+-------------------------------
+- AOMSDK-1016/Controls-layout-update
+- Update README.md
+- AOMSDK-1025 AdViewabilityDetector update
+- AOMSDK-1018 AdIssue detector
+- AOMSDK-1026 /ads/ad-start.gif tracker misses 'rid' param
+- AOMSDK-1017 AdManager params update
+- Controls submodule
+- Controls module removal
+- Reference controls as library
+- Changelog update for 2.4 [skip ci]
+
+2.4 (2017-02-24 18:04:29 +0200)
+-------------------------------
+- Resource transfer to controls module
+- SDK other tests update
+- SDK view tests update
+- SDK integration test update
+- SDK view package update
+- SDK build script update
+- SDK ad controls layout update
+- SDK core update
+- View model
+- Controls view
+- Utils
+- Layout and values resources
+- Module structure
+- AOMSDK-712 Add aid parameter to ad-engine-flow.gif and ad-issue.gif trackers
+- AOMSDK-997 Player shows infinite spinner after returning back from ad web view
+- Null annotations for test
+- Null annotations for base package
+- Null annotations for View package
+- Null annotations for Utils package
+- Null annotations for Model package
+- Null annotations for Metrics package
+- Null annotations for Http and Listener package
+- Null annotations for Advertisement package
+- AOMSDK-823 Ad is paused if content video gets connection error
+- AOMSDK-1000 Player shows timeout error if video response is delayed
+- AOMSDK-970 Player does not show CONNECTION_ERROR when content video returns http404
+- Travis build fixup
+- appcompat version update
+- Changelog update for 2.3
+
+2.3 (2017-02-21 19:22:29 +0200)
+-------------------------------
+- Plugin signature change
+- Play/pause button size fix
+- Controls theming guide
+- AOMSDK-707 Implement slot opp tracker
+- Live stream fixup
+- Restore show/hide controls feature after replay
+- Initial controls state fix
+- Add plugin support for SDK
+- txid and slot refactoring
+- txid and slot are required for vrm
+- Theme support for PlayerControlsView
+- Junk files removal
+- Next, prev buttons visibility change on seek
+- VrmSource fix
+- spot opp tests
+- AOMSDK-707 Implement slot-opp.gif tracker
+- Add ability to override service URL
+- Google services version update
+- Url update
+- Add ability to override service URL
+- AOMSDK-785/Add-3-sec-video-view-metric-for-mobile-SDK
+- Fixed TravisCi build problem
+- Added null condition annotations for Http package
+- Changelog update for 2.2
+- Controls disappears while user is clicking +/-10 sec button
+- video-time is fired with pct=0 after video replay
+- AOMSDK-974/Null-annotations-update
+- 360 is shown as flat(update)
+- pct param in video-time should be from 0 to 1
+- 360 is shown as flat
+- Ad trackers are fired incorrectly
+- Refactoring
+- Remove DefaultAdTimeView and DefaultProgressView
+- Refactoring
+- Remove ControlImageButton
+- Added Translator tests for new ad time properties
+- Update AdControlsViewModel
+- Changelog update for 2.1
+- Fixed naming for ad controls
+- Fixed naming
+- Exception while playing video
+- Make PlayerControlsView non final
+- Javadoc fixup
+- Added tests
+- Remove progress bar and video-duration label when autoplay is tuned off
+- App is crashed when I use PlayAtIndex with autoplay=false
+- Added properties studs for DefaultAdControlsView
+- Update PlayerView with properties
+- Revert "Added properties studs"
+- State observers count test fixes
+- Changes after review
+- Added Translator tests
+- Changes after review and tests
+- Fixes after review
+- Update PlayerView with properties
+- Changes after review
+- AOMSDK-945 Thumbnail update for custom ui
+- Added Translator tests
+- Update of support lib version
+- Changes after review and tests
+- Custom controls guide
+- Fix of controls visibility with autoplay set to off
+- Fixes after review
+- Update readme.md Add Extra to OneSDK request
+- Update PlayerView with properties
+- Changelog update for 2.0
+- Fix of blur
+- AOMSDK-928 PlayerView dispose update
+- Update README.md
+- Update README.md
+- Tint with selector for 4.3+ devices, cc button always shows to user
+- Preroll pod size will be initially set from remote config of sdk
+- Custom userAgent is not used in /vrm requests
+- Update README.md Environment
+- Update README.md Environment
+- Microservice update (#329)
+- Remove unused classes
+- Unbind UiObserver
+- Ui tests
+- New controls
+- View utils
+- Update of xml views and styles
+- Drawable resources
+- Update README.md
+- preroll fix
+- AOMSDK-910 Progress timer update
+- Create a documentation "Guide" that completely shows how to implement a full set of custom controls
+- Remove Deprecated methods
+- Second video in default playlist can't be played till the end
+- App is crashed when I try to watch live stream video
+- App is crashed if I try to play array of videos on Galaxy Nexus
+- GET method logic fixup
+- NPE fixup in http service layer
+- Player callback hotfix
+- Ui feedback handler
+- TrackingPixels with HttpService
+- Player controls view based on props (#313)
+- Add Ui properties
+- Updated tests without warnings
+- Migration of VideoProvider to new http service
+- Tests
+- SDK player
+- SDK playback
+- SDK advertisement
+- SDK refactor
+- Default views 3 pack
+- Default views 2 pack
+- Default views 1 pack
+- UI common views
+- UI controls view
+- UI ad views
+- UI common presenters
+- UI button presenters 2
+- UI button presenters 1
+- UI controls presenters
+- UI ad presenters
+- UI sensor
+- UI Controllers
+- Error detector, TPR and props
+- Other detectors
+- Playback detectorsˆ
+- Ad detectors
+- HTTP networking
+- HTTP models
+- HTTP json
+- Utils
+- Ads provider
+- VRM stuff
+- Ads utils
+- AOMSDK-862 Flat video is render in 360
+- AOMSDK-867 App is cashed if subtitles returns http404
+- AOMSDK-868 Update ExoPlayer to version 2.1
+- OneSDK now can be constructed as usual
+- HTTP service for further usage with MS
+- HTTP service for further usage with MS
+- Parser for remote SDK config
+- Making SDK creation async
+- Redefined creation procedure for SDK
+- AOMSDK-810  Update ExoPlayer to version 2
+
+1.0.24 (Fri Feb 17 19:57:33 2017 +0200)
+---------------------------------------
+- txid and slot refactoring
+- txid and slot are required for vrm
+- VrmSource fix
+- spot opp tests
+- AOMSDK-707 Implement slot-opp.gif tracker
+- Add ability to override service URL
+- Url update
+- Add ability to override service URL
+- Controls disappears while user is clicking +/-10 sec button
+- video-time is fired with pct=0 after video replay
+- AOMSDK-974/Null-annotations-update
+- 360 is shown as flat(update)
+- pct param in video-time should be from 0 to 1
+- 360 is shown as flat
+- Ad trackers are fired incorrectly
+- Refactoring
+- Remove DefaultAdTimeView and DefaultProgressView
+- Refactoring
+- Remove ControlImageButton
+- Added Translator tests for new ad time properties
+- Update AdControlsViewModel
+- Changelog update for 2.1
+- Fixed naming for ad controls
+- Fixed naming
+- Exception while playing video
+- Make PlayerControlsView non final
+- Javadoc fixup
+- Added tests
+- Remove progress bar and video-duration label when autoplay is tuned off
+- App is crashed when I use PlayAtIndex with autoplay=false
+- Added properties studs for DefaultAdControlsView
+- Update PlayerView with properties
+- Revert "Added properties studs"
+- State observers count test fixes
+- Changes after review
+- Added Translator tests
+- Changes after review and tests
+- Fixes after review
+- Update PlayerView with properties
+- Changes after review
+- AOMSDK-945 Thumbnail update for custom ui
+- Added Translator tests
+- Update of support lib version
+- Changes after review and tests
+- Custom controls guide
+- Fix of controls visibility with autoplay set to off
+- Fixes after review
+- Update readme.md Add Extra to OneSDK request
+- Update PlayerView with properties
+- Changelog update for 2.0
+- Fix of blur
+- AOMSDK-928 PlayerView dispose update
+- Update README.md
+- Update README.md
+- Tint with selector for 4.3+ devices, cc button always shows to user
+- Preroll pod size will be initially set from remote config of sdk
+- Custom userAgent is not used in /vrm requests
+- Update README.md Environment
+- Update README.md Environment
+- Microservice update (#329)
+- Remove unused classes
+- Unbind UiObserver
+- Ui tests
+- New controls
+- View utils
+- Update of xml views and styles
+- Drawable resources
+- Update README.md
+- preroll fix
+- AOMSDK-910 Progress timer update
+- Create a documentation "Guide" that completely shows how to implement a full set of custom controls
+- Remove Deprecated methods
+- Second video in default playlist can't be played till the end
+- App is crashed when I try to watch live stream video
+- App is crashed if I try to play array of videos on Galaxy Nexus
+- GET method logic fixup
+- NPE fixup in http service layer
+- Player callback hotfix
+- Ui feedback handler
+- TrackingPixels with HttpService
+- Player controls view based on props (#313)
+- Add Ui properties
+- Updated tests without warnings
+- Migration of VideoProvider to new http service
+- Tests
+- SDK player
+- SDK playback
+- SDK advertisement
+- SDK refactor
+- Default views 3 pack
+- Default views 2 pack
+- Default views 1 pack
+- UI common views
+- UI controls view
+- UI ad views
+- UI common presenters
+- UI button presenters 2
+- UI button presenters 1
+- UI controls presenters
+- UI ad presenters
+- UI sensor
+- UI Controllers
+- Error detector, TPR and props
+- Other detectors
+- Playback detectorsˆ
+- Ad detectors
+- HTTP networking
+- HTTP models
+- HTTP json
+- Utils
+- Ads provider
+- VRM stuff
+- Ads utils
+- AOMSDK-862 Flat video is render in 360
+- AOMSDK-867 App is cashed if subtitles returns http404
+- AOMSDK-868 Update ExoPlayer to version 2.1
+- OneSDK now can be constructed as usual
+- HTTP service for further usage with MS
+- HTTP service for further usage with MS
+- Parser for remote SDK config
+- Making SDK creation async
+- Redefined creation procedure for SDK
+- AOMSDK-810  Update ExoPlayer to version 2
+
+2.2 (Tue Feb 14 19:19:31 2017 +0200)
+------------------------------------
+- Controls disappears while user is clicking +/-10 sec button
+- video-time is fired with pct=0 after video replay
+- AOMSDK-974/Null-annotations-update
+- 360 is shown as flat(update)
+- pct param in video-time should be from 0 to 1
+- 360 is shown as flat
+- Ad trackers are fired incorrectly
+- Refactoring
+- Remove DefaultAdTimeView and DefaultProgressView
+- Refactoring
+- Remove ControlImageButton
+- Added Translator tests for new ad time properties
+- Update AdControlsViewModel
+- Changelog update for 2.1
+- Fixed naming for ad controls
+- Fixed naming
+- Added tests
+- Added properties studs for DefaultAdControlsView
+
+2.1 (2017-02-06 20:18:50 +0200)
+-------------------------------
+- Exception while playing video
+- Make PlayerControlsView non final
+- Javadoc fixup
+- Remove progress bar and video-duration label when autoplay is tuned off
+- App is crashed when I use PlayAtIndex with autoplay=false
+- Update PlayerView with properties
+- Revert "Added properties studs"
+- State observers count test fixes
+- Changes after review
+- Added Translator tests
+- Changes after review and tests
+- Fixes after review
+- Update PlayerView with properties
+- Changes after review
+- AOMSDK-945 Thumbnail update for custom ui
+- Added Translator tests
+- Update of support lib version
+- Changes after review and tests
+- Custom controls guide
+- Fix of controls visibility with autoplay set to off
+- Fixes after review
+- Update readme.md Add Extra to OneSDK request
+- Update PlayerView with properties
+- Changelog update for 2.0
+
+2.0 (2017-01-26 18:53:24 +0200)
+-------------------------------
+- Fix of blur
+- AOMSDK-928 PlayerView dispose update
+- Update README.md
+- Update README.md
+- Tint with selector for 4.3+ devices, cc button always shows to user
+- Preroll pod size will be initially set from remote config of sdk
+- Custom userAgent is not used in /vrm requests
+- Update README.md Environment
+- Update README.md Environment
+- Microservice update (#329)
+- Remove unused classes
+- Unbind UiObserver
+- Ui tests
+- New controls
+- View utils
+- Update of xml views and styles
+- Drawable resources
+- Update README.md
+- preroll fix
+- AOMSDK-910 Progress timer update
+- Create a documentation "Guide" that completely shows how to implement a full set of custom controls
+- Remove Deprecated methods
+- Second video in default playlist can't be played till the end
+- App is crashed when I try to watch live stream video
+- App is crashed if I try to play array of videos on Galaxy Nexus
+- GET method logic fixup
+- NPE fixup in http service layer
+- Player callback hotfix
+- Ui feedback handler
+- TrackingPixels with HttpService
+- Player controls view based on props (#313)
+- Add Ui properties
+- Updated tests without warnings
+- Migration of VideoProvider to new http service
+- Tests
+- SDK player
+- SDK playback
+- SDK advertisement
+- SDK refactor
+- Default views 3 pack
+- Default views 2 pack
+- Default views 1 pack
+- UI common views
+- UI controls view
+- UI ad views
+- UI common presenters
+- UI button presenters 2
+- UI button presenters 1
+- UI controls presenters
+- UI ad presenters
+- UI sensor
+- UI Controllers
+- Error detector, TPR and props
+- Other detectors
+- Playback detectorsˆ
+- Ad detectors
+- HTTP networking
+- HTTP models
+- HTTP json
+- Utils
+- Ads provider
+- VRM stuff
+- Ads utils
+- AOMSDK-862 Flat video is render in 360
+- AOMSDK-867 App is cashed if subtitles returns http404
+- AOMSDK-868 Update ExoPlayer to version 2.1
+- OneSDK now can be constructed as usual
+- HTTP service for further usage with MS
+- HTTP service for further usage with MS
+- Parser for remote SDK config
+- Making SDK creation async
+- Redefined creation procedure for SDK
+- Changelog update for 1.0.23
+- AOMSDK-810  Update ExoPlayer to version 2
+
+1.0.23 (Fri Dec 23 19:48:54 2016 +0200)
+---------------------------------------
+- The initial focused button should be the play/pause button
+- Changelog update for 1.0.22
+
+1.0.22 (2016-12-19 19:24:34 +0200)
+----------------------------------
+- Added annotations for NPE detection
+- Default UI on android earlier api 21
+- Changelog update for 1.0.21
+
+1.0.21 (Mon Dec 5 20:01:04 2016 +0200)
+--------------------------------------
+- CC button cannot be focused or clicked by remote control.
+- Video is automatically started on wake up, regardless autoplay false
+- Stopping ad playback when switching to new video
+- Remove forced play invocation during ad processing
+- Update of shadow alpha value
+- Seek fix
+- Changelog update for 1.0.20
+
+1.0.20 (Mon Nov 28 21:08:39 2016 +0200)
+---------------------------------------
+- Aol app seek fix
+- One resume in binder
+- aen param encoded twice
+- remove playAd and pauseAd methods
+- add ViewState in player state
+- AOMSDK-796 Global playback state for content and ads
+- Build tools update
+- Tests fixup
+- Builder for Player
+- Added new param for pixels m.fwsitesection
+- Changelog update for 1.0.19
+
+1.0.19 (2016-11-21 18:12:27 +0200)
+----------------------------------
+- +/-10 sec buttons visibility fix
+- Expose image loader for SDK users
+- Thumbnail view with max sized thumb
+- Playback and playlist listeners as observers of state
+- Gradle script config for with reduced memory params
+- Changelog update for 1.0.18
+
+1.0.18 (Wed Nov 16 18:42:43 2016 +0200)
+---------------------------------------
+- Thumbnail property
+- AOMSDK-772 Double ad-engine-flow (finished) and no context started when selecting playAtIndex while ad is being played
+- AOMSDK-773 App is crashed if use ErrorHandlingBehaviour.NO_ACTION and both ad and content video get error
+- AOMSDK-772 Double ad-engine-flow (finished) and no context started when selecting playAtIndex while ad is being played
+- Changelog update for 1.0.17
+- Remove listeners, fixed tests
+- Mutable props
+- Mutable state, compilable tests
+
+1.0.17 (Thu Nov 10 18:43:14 2016 +0200)
+---------------------------------------
+- Fix of pv param been blank
+- Video Unavailable issue
+- Changelog update for 1.0.16
+
+1.0.16 (Tue Nov 8 20:06:54 2016 +0200)
+--------------------------------------
+- backward compatibility
+- AOMSDK-767 Fix multi-preroll support on Android
+- backward compatibility
+- AOMSDK-766 Implement capability to configure amount of forced prerolls
+- Tests fix
+- New exoplayer on each video
+- Changelog update for 1.0.15
+
+1.0.15 (2016-10-31 21:40:45 +0200)
+----------------------------------
+- Update of readme and javadoc
+- adBreakage fix
+- Play on COntent error fix
+- Changelog update for 1.0.15-rc8
+- AOMSDK-748 We have to fire ads/ad-request.gif tracker
+- test fixes
+- Pause error handling fix
+- AOMSDK-737 Ads is still playing in background after clicked on ads and jumped to the sponsor's page. (time fix)
+- AOMSDK-737 Ads is still playing in background after clicked on ads and jumped to the sponsor's page (buffering update)
+
+1.0.15-rc8 (2016-10-28 18:27:58 +0300)
+--------------------------------------
+- Merge branch 'master' of github.com:vidible/mobile-sdk-android
+- Deploy fixup
+- Changelog update
+
+1.0.15-rc7 (2016-10-28 17:41:05 +0300)
+--------------------------------------
+- Deploy fixup
+
+1.0.15-rc6 (2016-10-28 17:23:03 +0300)
+--------------------------------------
+- Continuous deployment fixup
+
+1.0.15-rc5 (2016-10-28 15:45:57 +0300)
+--------------------------------------
+- CI changelog generation
+
+1.0.15-rc2 (2016-10-28 15:03:40 +0300)
+--------------------------------------
+- CI changelog generation
+
+1.0.15-rc1 (2016-10-28 01:36:39 +0300)
+--------------------------------------
+- Update README.md
+- Javadoc gradle tasks
+- Bump version to 1.0.14
+- Cancel ad request on pause
+- AOMSDK-737 Ads is still playing in background after clicked on ads and jumped to the sponsor's page
+- Error handling doc
+- AOMSDK-736 v1.0.13 App crashed while switching to another video during a playing ads
+- Changelog update
+
+1.0.13 (Mon Oct 24 18:51:35 2016 +0300)
+---------------------------------------
+- Bump version to 1.0.13
+- update after review
+- Error handling behaviour tests
+- errorHandlingBehaviour
+- Next video on content error only
+- AOMSDK-729 VideoDecile reports ts 1476835892893, bigger than max int value
+- Ad request test update
+- Ad request test
+- Changelog update
+
+1.0.12 (Tue Oct 18 19:45:19 2016 +0300)
+---------------------------------------
+- Bump version to 1.0.12
+- Support for OneSDK construction without HLS content playback
+- annotations and parsed data
+- txid as separate param
+- Pixels firing after termination of Player session
+- IndexOutOfBoundsException fix
+- Changelog update
+
+1.0.11 (Thu Oct 13 18:39:01 2016 +0300)
+---------------------------------------
+- Bump version to 1.0.11
+- AOMSDK-711 ad-request should be fired after receiving vrm response
+- PlayerModelTransformer fixup
+- Adding playback error event to VideoPlaybackListener
+- Expose of VideoProviderResponse to public
+- Merge branches 'AOMSDK-694/Ad-play-pause-API' and 'master' of github.com:vidible/mobile-sdk-android
+- Rename of methods for consistency with iOS
+- Add limit param to videos request
+- sort fix
+- Changelog update
+- Vrm R param
+- Changelog update
+
+1.0.10 (Thu Oct 6 18:11:37 2016 +0300)
+--------------------------------------
+- Bump version to 1.0.10
+- resumeAd and pauseAd is public
+- Documentation update
+- VideoIds sort update
+- AOMSDK-679 Do not show ad controls until we have MediaFile link
+- AOMSDK-680 app is crashed when buffered progress reaches the end of the progress bar
+- Changelog update
+- video ids in player transformer
+- Proguard fix
+
+1.0.9 (Fri Sep 30 17:23:58 2016 +0300)
+--------------------------------------
+- Bump version to 1.0.9
+- AOMSDK-491 consider moving or fully obscuring title when CC is turned on and controls onscreen
+- empty vast fix
+- Aomsdk 648/implement select rendition logic (#223)
+- Forcing to get preroll for each video even if it doesn't have one (fix)
+- Changelog update
+
+1.0.8 (Tue Sep 20 11:05:57 2016 +0300)
+--------------------------------------
+- Forcing to get preroll for each video even if it doesn't have one
+- AOMSDK-616 Exception when hls video is played with slow internet connection
+- exoplayer 1.5.11
+- Fixup for sensor data regarding current device orientation in space
+- Tv focus fix
+- Fixed params order.
+- Bump version to 1.0.8
+- Changelog update
+
+1.0.7 (Fri Sep 9 19:27:37 2016 +0300)
+-------------------------------------
+- Model override support
+- Set update interval to 0.5 sec
+- seeker fix
+- Merge branch 'master' of github.com:vidible/mobile-sdk-android
+- Evolution update
+- AOMSDK-540 Android: Improve hit radius around seek button (#221)
+- AOMSDK-645 VideoPlaybackListener: onVideoLoadingStarted is not invoked for the first video
+- Removal of immutables lib
+- AOMSDK-606 Add 'cb' parameter to all tracking pixels
+- build 1.0.7
+- Changelog update
+
+1.0.6 (Fri Sep 2 18:05:38 2016 +0300)
+-------------------------------------
+- vvuid fix for video-time pixel
+- guid pattern fix
+- AOMSDK-607 Add 'vvuid' parameter to all tracking pixels (except impression.gif)
+- Surface disposal fixup while switching between different geometries
+- aen fix
+- Test fixes
+- AOMSDK-608 Add 'sid' and 'pt' parameters to impression.gif tracker
+- AOMSDK-609 Add 'seq' parameter to video related pixels
+- AOMSDK-610 Add 'aen' parameter to ad related trackers.
+- AOMSDK-632 Remove hardcoded ad server host from TrackingPixelsReporter
+- Tests fixup
+- 360 compass view
+- 360 compass view
+- Merge of accelerometer and swipe controls
+- OneSDK constructor update
+- added AdvertisingId
+- AOMSDK-614 Add 'uuid' query param to /vrm request and ad-start.gif
+- AOMSDK-392 Implement ad server tracking pixels
+- Move to properties instead of PlayerState
+- AOMSDK-556 - Buffering fix (#205)
+- VideoProviderResponse made public
+- SDK build dependencies update
+- Bump version to 1.0.6
+- Bintray upload task fixup
+- 1.0.5 Changelog
+- Vector sensor based camera orientation
+
+1.0.5 (Tue Aug 16 17:16:24 2016 +0300)
+--------------------------------------
+- AOMSDK-602 Android - implement player creation from array of video Ids
+- PlayerView ratio
+- AOMSDK-596 video-time is not fired sometimes, when user switches between videos using prev/next buttons
+- AOMSDK-595 Add controls substrate to make them visible on white video
+- tests fix
+- AOMSDK-588 Add 'length' field to Response object
+- Fixed data fetcher tests. (#196)
+- Fly360 projection support
+- Parse of video projection type
+- Sphere model fixup
+- Start of version 1.0.5
+- Metric fixes
+- AOMSDK-472 Add playback errors handling
+- AOMSDK-354 Midroll is played regardless paused state
+- Build fix
+- Bump version to 1.0.5
+- changelog.sh fix
+- 1.0.4 Changelog
+- Deploy Changelog to GitHub Pages
+
+1.0.4 (Thu Aug 4 18:45:13 2016 +0300)
+-------------------------------------
+- Merge branch 'master' of github.com:vidible/mobile-sdk-android
+- Deploy Changelog to GitHub Pages
+- Midrolls visibility fixup
+- 360 orientation FOV fixup
+- PR template
+- Allow redirects between protocols for ExoPlayer
+- Camera initial position fixup
+- Sphere rendering fixup
+- Vertical restriction of camera direction angle
+- Ads clickthrough fixup (#187)
+- display pixel fix
+- Fixup for gesture detector inside DefaultControlsView
+- AOMSDK-563 Add 'description' field to Video object in VideoProviderResponse
+- AOMSDK-511 Player versioning
+- Video type parse and usage
+- Subtitles loader fix
+- build fix
+- Connection error fix
+- Set correct rendering mode for ad.
+- 360 sphere rendering support
+- Add constructor method for OneSDK regarding VideoProviderResponse
+- Thumbnails fix
+- HLS fix
+- Changelog
+
+1.0.3 (Wed Jul 27 16:28:56 2016 +0300)
+--------------------------------------
+- Version 1.0.3
+- review update 2
+- AOMSDK-546 - Added R param to all tracking pixels (#176)
+- review update
+- VideoProviderResponse update
+- Thumbnails
+- default maintainAspectRatio fix
+- AOMSDK-529 Respect ad video scalability and aspect ratio
+- Added more tests for TP reporter. Updated evolution SDK submodule. (#172)
+- target url activity rotation fix
+- Play at index fix (#173)
+- AOMSDK-507 Android TV: click on Ad video cause app crash
+- mute initial state fix
+
+1.0.2 (Thu Jul 14 19:50:12 2016 +0300)
+--------------------------------------
+- Version 1.0.2
+- mute fix
+- Mute
+- Updated /adset endpoint
+- videoAtIndex
+- sidepanel fix
+
+v1.0.1 (Tue Jul 12 19:09:32 2016 +0300)
+---------------------------------------
+- Version 1.0.1
+- Version 1.0.1
+- Update after review
+- Replay fix
+- AOMSDK-393 Video ad from inline VAST xml is not played
+- AOMSDK-495 Ads are not played for the second and next videos in playlist
+- AOMSDK-276 video-time.gif is not fired, when I'm switching from the second video to first
+- Animations update
+- Side panel
+- AOMSDK-284 App Crashes if originalVideoUrl is empty.
+- Android TV fix (#157)
+- AOMSDK-500 don't crash when ogg (#161)
+- AOMSDK-355 Current time is shown at the 0 position after changing device orientation
+- Added tests for adClickDetector and adPlaybackDetector (#154)
+- aomsdk-494: display tracker fix (#159)
+- AOMSDK-496 A few ad-request.gif are fired on single video with ads replay
+- AOMSDK-497 nv from video-stats is not increased on single video re-play
+- AOMSDK-498 Ad video controls should be yellow on tap (#156)
+
+v1.0.0 (Tue Jun 28 20:12:15 2016 +0300)
+---------------------------------------
+- Version 1.0.0
+- test fixes
+- test fixes
+- Beacon click tracking
+- Fixup
+- AOMSDK-476 Parse VAST beacons
+- Javadoc update
+- Merge branch 'feature/real_pixel_sending'
+- Build fixup
+- Ad seeker and play/pause buttons fix
+- Progress fixup
+- Ad controls resources
+- docs update
+- AOMSDK-474: TP cleanup
+- tests update
+- AOMSDK-395 change vpt parameter to string in video-play.gif tracker
+- AOMSDK-470 Add at parameter to vrm request (#145)
+- End buffering fix
+- AOMSDK-317 Seeker is not centered on seek bar on Galaxy Nexus
+- AOMSDK-316 Buttons are not colored on tap on Galaxy Nexus
+- send pixel metrics
+- Fixed impression and display tests (aid -> app_id)
+- Added tests for ImpressionDisplayDetector and TrackingPixelsReporter. (#139)
+- AOMSDK-450: changed aid to app_id
+- Display metric fix (#138)
+- Added tests for context-started tracker (AOMSDK-446)
+- Web view
+- AOMSDK-406 Android - implement display.gif tracker
+- AOMSDK-404 Implement impression tracker
+- AOMSDK-443 ad-issue is not fired after the latest source changes
+- context-started replay fix
+- Remove aid param from vidible requests
+-  AOMSDK-388 Implement mrc-ad-view.gif ad tracker
+- Ad quartiles autoplay fix
+- AOMSDK-408 Android - Implement context-started.gif tracker
+- Strict empty application id (#129)
+- Fixed ad host name. Fixed player type. Fixed trackers path. (#130)
+- AOMSDK-390 Remove m parameter from ad-engine-flow pixel
+- AOMSDK-389 ad-engine-flow is fired with ap=false regardless the autoplay setting
+- Move to https
+- Aid parameter support
+- Evolution update. Controllers driven behavior binding.
+- Ad click
+- AOMSDK-402 ad-issue should be fired when there is an error with ad itself
+- Ad playback issue
+- evolution update
+- remove ad-interaction
+- Ad metric refactoring
+- AOMSDK-380 Ad-issue.gif should be fired only once pre ad session (once per one ad-request)
+- Generated tp according to the latest changes in .yaml. Fixed quartile tests.
+- Title fix
+- AOMSDK-384 video-stats.gif has always ac=0 regardless amount of ads played
+- Added test for video-stats parameters.
+- AOMSDK-341 video-time and video-play pixels are fired two times on replay video with pre-roll
+- AOMSDK-340 video-time and video-stats pixels are not fired on closing VideoActivity
+- AOMSDK-333 video-play.gif is fired while preroll is being played
+- Titile update
+- AOMSDK-378 Second ad engine is not requested if request for the first one was failed
+- Fixed failed tests.
+- Added tests for video-play and video-time trackers.
+- Preroll counter in parser fixup
+- Controls view shadow
+- Title view
+- asn parameter in ad-request.gif has incorrect value on video switch
+- Ad issue (load)
+- Fixed video tracking pixel parameters tests.
+- Added test for ad-request parameters.
+- Ad flow tests
+- Ad request tests
+- Rework of scale to fit
+- Show/hide func restore
+- Ad flow metrics
+
+v1.0.0-rc2 (Mon May 23 16:47:21 2016 +0300)
+-------------------------------------------
+- Ad playback resume fixup
+- Pull request fixes.
+- Added video-decile.gif parameters test.
+- Timeout update
+- Dont cancel tasks on success response or hardtimeout
+- ad response with time
+- ad request params
+- Tests fix
+- ad request right params
+- ad requests
+- Remove unused params
+- Ad request metric
+- Added test for video-quartile.gif parameters.
+- RC2 release
+- Autoplay fixup for preroll
+- Request fixup
+- Replay preroll fixup
+- Autoplay fixup for preroll
+- AdSettings parse error, overlapping settings
+- Ad settings id parse fixup
+- Preroll tests fixup
+- Content video started on beckground fix
+- Preroll fixup
+- Provider, fetcher, parser rework
+- Preroll support
+- VRM url in environment
+- AOMSDK-319 Fetch Video Ad Settings for all videos in playlist in one request
+- AOMSDK-308 Ads orevlay
+- video buffering fix
+- AOMSDK-304 Ad Manager
+- Added Gradle integration guide
+- Removing source codes uploading
+- Vrm fetcher
+- AOMSDK-296 Get AdSettings data
+- Vrm parser update
+- Vrm and vast simple parsers
+- enable/disable button refactoring
+- Colors update
+- AOMSDK-283 Custom controls visibility
+- Enable/disable of buttons instead of show hide.
+- Show hide on tap
+- Custom actions as Rannables
+- AOMSDK-281 Next/Previous Buttons custom behavior
+- Controls design update
+- buffering update
+- Tests update
+- Video duration in seeker
+- buffered video progress
+- Controls visibility update
+- Empty state
+- Presenters update
+- N sec controls view interfaces and presenters
+- AOMSDK-241 video-stats and video-time pixels are fired with incorrect value in 't' parameter if video was in end state for some time
+- Reworking dependencies (#68)
+- Updated tests to use test helper classes.
+- LogEntries integration (#44)
+- AOMSDK-256 Button halo
+- AOMSDK-255 "Back 10 Sec", "Forward 10 Sec" buttons
+- Presenter and logic for ad video presentation (#60)
+- AOMSDK-241 video-stats and video-time pixels are fired with incorrect value in 't' parameter if video was in end state for some time
+- startseek is not mandatory for seeking
+- AOMSDK-206 Play video from specific position
+- AOMSDK-240 Video-time tracker is fired for non played video
+- environment fix
+- Default sdk
+- Environment
+- Refactored Subtitles integration tests. Added more subtitles tests.
+- Updated SubtitlesControlsTest
+- Merge branch 'master' into fearute/Controls-design-color
+- Controls design color
+- AOMSDK-210 Video controls with subtitles disappear after clicking on VideoPlayer empty area
+- AOMSDK-192 quartile 4 and decile 10 are fired for the last video in playlist only
+- AOMSDK-189 video-time pixel is fired with 0 if user leaves player in the middle of video playback
+- Javadoc for properties
+- Tests update
+- Moving to properties
+- Replay fix
+- layout fix
+- code
+- xml
+- Images
+- AOMSDK-207
+- update
+- Subtitles update
+- Controls decomposition
+- Updated method names.
+- VrmAdServices implementation
+- Pure function for core decisions
+- ExoStreamView fix
+- Vrm ad provider logic implementation
+- Merge remote-tracking branch 'origin/feature/bintray-integration'
+- use specific version of the dependencies, comment out the javadocJar part, it seems some of the comment for Javadoc contains HTML tags which cause the javadoc task failing.
+- Update of integration guide
+- Presenter fix, new test
+- Subtitles presenter
+- Added tests for DataFetcher.
+- CC button
+- Public playback listeners, state properties, states delta
+- Added tests for Precondition class.
+- pid, bcid as param
+- addErrorListener
+- AOMSDK-101 Playlist/Video is started from the beginning after changing device orientation
+- presenter integration tests
+- AOMSDK-175 Pause button disappears after clicking re-play button
+- AOMSDK-125 video-time.gif is not fired on video-end AOMSDK-126 Video trackers are not fired on video re-play
+- Hls support
+- javadoc update
+- buffer update renderer update
+- Error handling
+- Slight refactoring
+- Interfaces fasade
+- pegdown-doclet used to generate javadoc
+- AOMSDK-153 Decile and Quartile sends after video was played
+- Decile and Quartile detectors with playing
+- AOMSDK-142 Fire video play time detector when replay action is fired. AOMSDK-140 Reset detectors on replay action fired. AOMSDK-149 Count repeated videos for Playlist Statistic detector
+- Introduction guide
+- Travis javadoc deploy test fixup
+- Travis javadoc deploy test fixup
+- Travis javadoc deploy test
+- Travis javadoc deploy test
+- Travis deploy for Javadoc
+- Javadoc generation using Doclava
+- Initial commit
+- Docs update
+- Video provider
+- Detectors
+- Controls presenter
+- Huge refactoring
+- Initial commit
+- Rebase to master
+- Presenter and view for playback controls VideoObject can now be bind to PlayerFragment directly
+- Public interfaces for events and view with media controls
+- Sdk update
+- Real data
+- Test fixup after rebase
+- Prerolls and post rolls, WIP
+- Ads framework, WIP
+- Send video play pixel each time in playlist
+- bintray integration
+- refactoring
+- VideoStatsPixel, VideoTimePixel
+- Generate Pixels
+- Implementation of next and previous buttons for playlist navigation
+- Added Playlist url builder, Playlist parser
+- Fixup
+- Guard syntax tryout
+- Guard syntax tryout
+- Prev and next actions
+- Merge feature/video_seek_state into master
+- Seek and replay functionality
+- Media controller refactoring
+- Test updates
+- Structure refactroing
+- Added VideoInfoParser
+- Init DataFetcher
+- Init UrlBuilder
+- ExoPlayer init
+- Init for fragment and resources
+- Squash of commits
+- Moved to immutable objects
+- SDK test added
+- Moved to immutable objects
+- Merge branch 'feature/playback_state' of github.com:vidible/mobile-sdk-android into feature/playback_state
+- Playback state implementation
+- Added autoplay flag
+- Video object
+- Logger removed
+- Playback state implementation
+- Add ignore for IntelliJ modules
+- Add ignore for IntelliJ modules
+- Initial setup of empty library module and travis integration for it
+- Initial commit
