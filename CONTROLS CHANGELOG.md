@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Click url handling
+- Overlay advertisement text on branded content video
 - Hook up updated gradle plugin for CI/CD with api changes tracking and snapshots
 - Public api generation for each flavor
 - Rework build script to produce flavour based setup
@@ -72,9 +74,4 @@ Unreleased
 - Tracks list scroll issue
 
 1.9 (2017-09-05 16:30:36 +0300)
--------------------------------
-- Controls for track selection
-- Resource update
-
-1.8 (2017-07-19 18:19:46 +0300)
 -------------------------------
