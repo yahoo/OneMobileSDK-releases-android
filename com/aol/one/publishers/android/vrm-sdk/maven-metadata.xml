@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aol.one.publishers.android</groupId>
+  <artifactId>vrm-sdk</artifactId>
+  <versioning>
+    <versions>
+      <version>0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180514123502</lastUpdated>
+  </versioning>
+</metadata>
