@@ -3,6 +3,9 @@
 
 Unreleased
 ----------
+- added github to knows hosts
+- Updated controls ref and added stubs
+- Test for test app triggering
 - Update to new androidCi build plugin
 - Fetch required parameters for BeOn video
 - Fire video-impression pixel (fix for all videos)

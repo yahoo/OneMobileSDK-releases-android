@@ -5,38 +5,38 @@
   <version>2.22-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180508.135108</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20180514.144552</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20180508135108</lastUpdated>
+    <lastUpdated>20180514144552</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>2.22-20180508.135108-1</value>
-        <updated>20180508135108</updated>
+        <value>2.22-20180514.144552-2</value>
+        <updated>20180514144552</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.22-20180508.135108-1</value>
-        <updated>20180508135108</updated>
+        <value>2.22-20180514.144552-2</value>
+        <updated>20180514144552</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2.22-20180508.135108-1</value>
-        <updated>20180508135108</updated>
+        <value>2.22-20180514.144552-2</value>
+        <updated>20180514144552</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.22-20180508.135108-1</value>
-        <updated>20180508135108</updated>
+        <value>2.22-20180514.144552-2</value>
+        <updated>20180514144552</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>pubapi</classifier>
         <extension>json</extension>
-        <value>2.22-20180508.135108-1</value>
-        <updated>20180508135108</updated>
+        <value>2.22-20180514.144552-2</value>
+        <updated>20180514144552</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
