@@ -3,9 +3,8 @@
 
 Unreleased
 ----------
-- added github to knows hosts
-- Updated controls ref and added stubs
-- Test for test app triggering
+- Click url handling
+- Overlay advertisement text on branded content video
 - Update to new androidCi build plugin
 - Fetch required parameters for BeOn video
 - Fire video-impression pixel (fix for all videos)
