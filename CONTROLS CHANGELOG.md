@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Implement BeOn design
 - Click url handling
 - Overlay advertisement text on branded content video
 - Hook up updated gradle plugin for CI/CD with api changes tracking and snapshots
@@ -71,7 +72,3 @@ Unreleased
 -------------------------------------
 - Live label have to be in upper left corner
 - Added live label to livestream video
-- Tracks list scroll issue
-
-1.9 (2017-09-05 16:30:36 +0300)
--------------------------------
