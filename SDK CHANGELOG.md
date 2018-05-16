@@ -3,6 +3,9 @@
 
 Unreleased
 ----------
+- Add click detector
+- Add view detector
+- Add quartile detector
 - Ad video campaign trackers should be parsed and fired
 - Click url handling
 - Overlay advertisement text on branded content video
