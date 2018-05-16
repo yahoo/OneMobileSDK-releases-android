@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Ad video campaign trackers should be parsed and fired
 - Click url handling
 - Overlay advertisement text on branded content video
 - Update to new androidCi build plugin
