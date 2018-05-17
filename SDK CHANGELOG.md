@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Add branded content trackers reporter
 - Add click detector
 - Add view detector
 - Add quartile detector
