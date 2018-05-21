@@ -1,6 +1,8 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Licencse update
+- Add stubs for VRM sdk
 - Public API tracking hookup
 - remove MainThread annotation
 - Updated package name, names of classes, license
