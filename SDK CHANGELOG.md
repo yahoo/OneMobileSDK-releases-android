@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Updated tests
+- Implemented VPAID advertisement parsing
 - Add branded content trackers reporter
 - Add click detector
 - Add view detector
