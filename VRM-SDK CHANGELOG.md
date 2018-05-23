@@ -1,6 +1,10 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+0.1 (2018-05-23 17:48:59 +0300)
+-------------------------------
+- Update public API for initial release
+- SDK internal framework
 - Licencse update
 - Add stubs for VRM sdk
 - Public API tracking hookup
