@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.oath.o2.android</groupId>
+  <artifactId>vrm-sdk</artifactId>
+  <versioning>
+    <versions>
+      <version>0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180523152534</lastUpdated>
+  </versioning>
+</metadata>
