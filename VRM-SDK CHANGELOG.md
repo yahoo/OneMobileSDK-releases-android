@@ -1,8 +1,6 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
-Unreleased
-----------
 - Framework application
 - Logic and reducers
 - Actions and observers
@@ -12,9 +10,6 @@ Unreleased
 - Lib package change
 - Parse Group
 - Create vrm url
-
-0.1 (2018-05-23 17:48:59 +0300)
--------------------------------
 - Update public API for initial release
 - SDK internal framework
 - Licencse update
