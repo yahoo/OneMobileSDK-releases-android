@@ -3,6 +3,13 @@
 
 Unreleased
 ----------
+- Framework application
+- Logic and reducers
+- Actions and observers
+- Main state
+- Redux core classes
+- Debug flag moved to VRMContext
+- Lib package change
 - Parse Group
 - Create vrm url
 
