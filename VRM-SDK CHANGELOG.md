@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Parse Group
 - Create vrm url
 
 0.1 (2018-05-23 17:48:59 +0300)
