@@ -1,6 +1,7 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- VrmResponse parsing business logic
 - Refactor of state
 - Framework application
 - Logic and reducers
