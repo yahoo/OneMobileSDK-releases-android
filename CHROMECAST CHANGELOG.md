@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Travis notification secure
 - Updated slack token
 - Update chromecast framework to latest one
 - Update build script to androidCi plugin
