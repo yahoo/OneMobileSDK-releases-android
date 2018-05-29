@@ -1,6 +1,7 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Refactor of state
 - Framework application
 - Logic and reducers
 - Actions and observers
