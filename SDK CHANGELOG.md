@@ -3,6 +3,9 @@
 
 Unreleased
 ----------
+- Added auto update of testApp
+- Fixed tests
+- Implemented reading hard and soft timeouts from MS response
 - Updated tests
 - Implemented VPAID advertisement parsing
 - Add branded content trackers reporter
