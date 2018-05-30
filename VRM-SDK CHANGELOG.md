@@ -1,6 +1,8 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Removed userAgent and uiHandler;
+- Vrm data fetcher
 - State made immutable
 - Middleware support added
 - VrmResponse parsing business logic
