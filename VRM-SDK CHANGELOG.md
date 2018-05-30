@@ -1,6 +1,8 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- State made immutable
+- Middleware support added
 - VrmResponse parsing business logic
 - Refactor of state
 - Framework application
