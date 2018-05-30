@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Made beon button not clickable when url is not present
+- Updated slack token
 - Implement BeOn design
 - Click url handling
 - Overlay advertisement text on branded content video
@@ -70,5 +72,3 @@ Unreleased
 
 1.10 (Wed Sep 20 19:18:43 2017 +0300)
 -------------------------------------
-- Live label have to be in upper left corner
-- Added live label to livestream video
