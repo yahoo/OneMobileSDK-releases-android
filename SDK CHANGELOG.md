@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fixed BeOn trackers not being fired
 - Refactored advertisement logic
 - Fixed reporting of empty vcid and mpid
 - Made beon button not clickable when url is not present
