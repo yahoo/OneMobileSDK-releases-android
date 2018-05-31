@@ -1,6 +1,8 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Test data for parsing as raw string VrmResult update
+- Parse XML
 - LogicUnit refactor
 - One more requirement added
 - VrmResult hard timeout logic moved to reducer
