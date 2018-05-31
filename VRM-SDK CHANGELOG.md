@@ -1,6 +1,7 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Ad wrapper support for easy VAST redirects handling
 - Test data for parsing as raw string VrmResult update
 - Parse XML
 - LogicUnit refactor
