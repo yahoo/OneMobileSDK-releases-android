@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fixed crash when dimensions are less then zero
 - Made beon button not clickable when url is not present
 - Updated slack token
 - Implement BeOn design
@@ -68,7 +69,3 @@ Unreleased
 - Android gradle plugin update to 3.0.0
 - Chromecast implementation
 - Support for snapshots build
-- Kotlin support added
-
-1.10 (Wed Sep 20 19:18:43 2017 +0300)
--------------------------------------
