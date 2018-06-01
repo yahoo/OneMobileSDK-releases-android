@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fixed midrolls being absent on video replay
 - Fixed BeOn trackers not being fired
 - Refactored advertisement logic
 - Fixed reporting of empty vcid and mpid
