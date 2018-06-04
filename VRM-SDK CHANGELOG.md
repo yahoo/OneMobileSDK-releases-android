@@ -1,6 +1,7 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- AdWrapper parsing
 - Item fetching tests and implementation
 - Tests update
 - LogicUnit refactor
