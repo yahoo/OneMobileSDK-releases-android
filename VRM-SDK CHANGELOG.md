@@ -1,6 +1,12 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Item fetching tests and implementation
+- Tests update
+- LogicUnit refactor
+- Actions refactor
+- Raw AsyncService and Cancellable concept
+- HttpService clean up
 - Fetch XML
 - Ad wrapper support for easy VAST redirects handling
 - Test data for parsing as raw string VrmResult update
