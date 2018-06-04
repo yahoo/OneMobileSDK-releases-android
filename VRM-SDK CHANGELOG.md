@@ -1,6 +1,9 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- VrmCallback adapter and tests
+- Services at one place, minor refactoring
+- Stub implementation removal
 - AdWrapper parsing
 - Item fetching tests and implementation
 - Tests update
