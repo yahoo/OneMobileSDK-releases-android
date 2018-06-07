@@ -3,14 +3,15 @@
   <groupId>com.aol.one.publishers.android</groupId>
   <artifactId>api-tracker-plugin</artifactId>
   <versioning>
-    <release>1.2</release>
+    <release>1.3</release>
     <versions>
       <version>1.0-SNAPSHOT</version>
       <version>1.1</version>
       <version>1.1-SNAPSHOT</version>
       <version>1.2</version>
       <version>1.2-SNAPSHOT</version>
+      <version>1.3</version>
     </versions>
-    <lastUpdated>20180607124002</lastUpdated>
+    <lastUpdated>20180607125757</lastUpdated>
   </versioning>
 </metadata>
