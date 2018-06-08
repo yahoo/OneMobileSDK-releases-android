@@ -1,6 +1,16 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Add AdErrorDetector
+- Add AdTagResponseSuccessDetector
+- Add AdTagResponseFailureDetector
+- Add AdPlaybackViewDetector
+- Add StartAdDetector
+- Add AdPlaybackEndDetector
+- Add AdPlaybackQuartileDetector
+- Added Bats tracking generator for yaml file
+- Added o2-vrm-sdk-definitions submodule
+- Add bats trackers reporter
 - VrmCallback adapter and tests
 - Services at one place, minor refactoring
 - Stub implementation removal
