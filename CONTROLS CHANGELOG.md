@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fixed TV devices not being able to select seek bar when using remote
 - Fixed crash when dimensions are less then zero
 - Made beon button not clickable when url is not present
 - Updated slack token
@@ -68,4 +69,3 @@ Unreleased
 - Android gradle plugin 3.0.0 support
 - Android gradle plugin update to 3.0.0
 - Chromecast implementation
-- Support for snapshots build
