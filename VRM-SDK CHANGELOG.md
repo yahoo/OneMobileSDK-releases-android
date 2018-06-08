@@ -1,6 +1,7 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Add AdOpportunityDetector
 - Add AdErrorDetector
 - Add AdTagResponseSuccessDetector
 - Add AdTagResponseFailureDetector
