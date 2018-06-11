@@ -1,6 +1,7 @@
 # OneMobile SDK Vrm-sdk release notes
 =====================================
 
+- Common code cleanup
 - Added detectort to AdDetectorsReporter
 - Detectors update
 - Add AdOpportunityDetector
