@@ -1,8 +1,8 @@
 # OneMobile SDK Renderer release notes
 ======================================
 
-Unreleased
-----------
+2.12 (2018-05-22 17:07:16 +0300)
+--------------------------------
 - Updated slack token
 - Update build script to use androidCi plugin
 
