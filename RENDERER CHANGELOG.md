@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Updated slack token
 - Update build script to use androidCi plugin
 
 2.11 (2018-04-30 15:50:09 +0300)
@@ -86,4 +87,3 @@ Unreleased
 2.5 (Mon Aug 21 19:33:28 2017 +0300)
 ------------------------------------
 - Extra renderer check
-- Added passthrough of bitrate for hls video
