@@ -1,6 +1,7 @@
-# OneMobile SDK Vrm-sdk release notes
-=====================================
+# O2 Vrm-sdk release notes
+==========================
 
+- Initial commit
 - Common code cleanup
 - Added detectort to AdDetectorsReporter
 - Detectors update
