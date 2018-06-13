@@ -1,6 +1,9 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+- Playback state support
+- Bats beacons initial support
+- Playback actions
 - Initial commit
 - Common code cleanup
 - Added detectort to AdDetectorsReporter
