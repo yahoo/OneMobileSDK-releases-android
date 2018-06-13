@@ -1,8 +1,8 @@
 # OneMobile SDK Controls release notes
 ======================================
 
-Unreleased
-----------
+1.16 (2018-06-08 17:44:42 +0300)
+--------------------------------
 - Fixed TV devices not being able to select seek bar when using remote
 - Fixed crash when dimensions are less then zero
 - Made beon button not clickable when url is not present
