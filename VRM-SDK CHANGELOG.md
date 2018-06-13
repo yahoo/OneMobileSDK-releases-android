@@ -1,6 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+1.0 (2018-06-13 18:02:51 +0300)
+-------------------------------
 - Playback state support
 - Bats beacons initial support
 - Playback actions
