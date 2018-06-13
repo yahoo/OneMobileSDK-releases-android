@@ -1,6 +1,11 @@
 # OneMobile SDK Sdk release notes
 =================================
 
+Unreleased
+----------
+- Fixed tests
+- Grouped common parameters both for mp4 and vpaid ad
+
 2.22 (2018-06-08 18:54:11 +0300)
 --------------------------------
 - Fixed freezing when receiving VPAID ad
