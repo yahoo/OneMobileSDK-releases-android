@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.0.1 (2018-06-15 19:06:56 +0300)
+---------------------------------
 - Action refactored to visitor pattern
 - ProGuard namespace fix
 - Filter mp4 ads
