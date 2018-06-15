@@ -1,6 +1,11 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+Unreleased
+----------
+- Bats beacons params fill
+- AdSystem VAST field parsing
+
 1.0 (2018-06-13 18:02:51 +0300)
 -------------------------------
 - Playback state support
