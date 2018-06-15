@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- ProGuard namespace fix
 - Filter mp4 ads
 - Bats beacons params fill
 - AdSystem VAST field parsing
