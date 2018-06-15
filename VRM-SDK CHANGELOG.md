@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Action refactored to visitor pattern
 - ProGuard namespace fix
 - Filter mp4 ads
 - Bats beacons params fill
