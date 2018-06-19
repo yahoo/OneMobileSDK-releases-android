@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Algebraic type refactoring
 - Content playback tracking
 
 1.0.1 (2018-06-15 19:06:56 +0300)
