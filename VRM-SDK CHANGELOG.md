@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- <Duration> VAST tag parsed as seconds
 - Beacon listener with event name param
 - Store moved to VRMSDK
 - Algebraic type refactoring
