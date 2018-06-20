@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Store moved to VRMSDK
 - Algebraic type refactoring
 - Content playback tracking
 
