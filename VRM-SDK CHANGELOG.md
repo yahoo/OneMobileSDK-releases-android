@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.1.0 (2018-06-20 16:36:10 +0300)
+---------------------------------
 - Content playback state
 - <Duration> VAST tag parsed as seconds
 - Beacon listener with event name param
