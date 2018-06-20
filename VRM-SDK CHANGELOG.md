@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Beacon listener with event name param
 - Store moved to VRMSDK
 - Algebraic type refactoring
 - Content playback tracking
