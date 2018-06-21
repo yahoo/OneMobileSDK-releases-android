@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Player id, buying company id and video id parsing from VRM response
 - Opportunity beacon rework
 
 1.1.0 (2018-06-20 16:36:10 +0300)
