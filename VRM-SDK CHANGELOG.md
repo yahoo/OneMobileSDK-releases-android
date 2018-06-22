@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Environment as mandatory field
+- Set of tracking pixels for vrm state tracking and ad playback
 - Player id, buying company id and video id parsing from VRM response
 - Opportunity beacon rework
 
