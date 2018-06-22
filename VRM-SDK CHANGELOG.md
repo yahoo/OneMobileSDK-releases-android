@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.2.0 (2018-06-22 19:42:36 +0300)
+---------------------------------
 - Environment as mandatory field
 - Set of tracking pixels for vrm state tracking and ad playback
 - Player id, buying company id and video id parsing from VRM response
