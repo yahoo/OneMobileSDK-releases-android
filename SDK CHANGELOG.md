@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Added initial state for Vpaid ad
+- Moved AdType parameter from AdState to VrmState
 - Fixed tests
 - Grouped common parameters both for mp4 and vpaid ad
 
