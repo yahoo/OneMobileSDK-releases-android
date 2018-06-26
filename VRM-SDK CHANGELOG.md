@@ -3,6 +3,9 @@
 
 Unreleased
 ----------
+- Tests update
+- Content start tracking pixel implementation
+- Content viewport size tracking support
 - Test application for VRM SDK
 - Test application for VRM SDK (resources and cleanup)
 
