@@ -1,6 +1,11 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+Unreleased
+----------
+- Test application for VRM SDK
+- Test application for VRM SDK (resources and cleanup)
+
 1.2.0 (2018-06-22 19:42:36 +0300)
 ---------------------------------
 - Environment as mandatory field
