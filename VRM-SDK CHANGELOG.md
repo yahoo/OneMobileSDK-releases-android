@@ -4,6 +4,7 @@
 Unreleased
 ----------
 - Add AdViewabilityDetector
+- Context start tracking pixel
 - Content complete tracking pixel
 - Tests update
 - Content start tracking pixel implementation
@@ -100,8 +101,6 @@ Unreleased
 - remove MainThread annotation
 - Updated package name, names of classes, license
 - Update VrmAd.java
-- SDK interface mockup v2.0
 - Update README.md
 - Common files update
-- Project files
 - Initial commit
