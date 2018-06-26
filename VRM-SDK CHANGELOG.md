@@ -3,10 +3,12 @@
 
 Unreleased
 ----------
+- Add AdViewabilityDetector
 - Content complete tracking pixel
 - Tests update
 - Content start tracking pixel implementation
 - Content viewport size tracking support
+- Add AdViewTimeDetector
 - Test application for VRM SDK
 - Test application for VRM SDK (resources and cleanup)
 
