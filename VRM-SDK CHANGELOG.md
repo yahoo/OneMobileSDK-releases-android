@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Add AdRequestDetector
 - Add AdViewabilityDetector
 - Context start tracking pixel
 - Content complete tracking pixel
@@ -100,7 +101,4 @@ Unreleased
 - Public API tracking hookup
 - remove MainThread annotation
 - Updated package name, names of classes, license
-- Update VrmAd.java
 - Update README.md
-- Common files update
-- Initial commit
