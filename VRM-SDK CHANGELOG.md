@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Content complete tracking pixel
 - Tests update
 - Content start tracking pixel implementation
 - Content viewport size tracking support
@@ -98,9 +99,7 @@ Unreleased
 - Updated package name, names of classes, license
 - Update VrmAd.java
 - SDK interface mockup v2.0
-- SDK interface mockup
 - Update README.md
 - Common files update
 - Project files
-- Gradle core files
 - Initial commit
