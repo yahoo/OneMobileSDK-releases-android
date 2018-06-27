@@ -5,6 +5,7 @@ Unreleased
 ----------
 - Context start pixel fix
 - Store wireup with logic at VRMSDK constructor
+- vast/click is fired only once
 - Custom environment support
 - Proper hard timeout fire timing
 - Make `vid` parameter not required
@@ -94,4 +95,6 @@ Unreleased
 - Refactor of state
 - Framework application
 - Logic and reducers
+- Actions and observers
 - Parse Group
+- Create vrm url
