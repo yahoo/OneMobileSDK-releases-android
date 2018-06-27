@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Slot opportunity pixel implementation
 - Context start pixel fix
 - Store wireup with logic at VRMSDK constructor
 - vast/click is fired only once
@@ -95,6 +96,4 @@ Unreleased
 - Refactor of state
 - Framework application
 - Logic and reducers
-- Actions and observers
 - Parse Group
-- Create vrm url
