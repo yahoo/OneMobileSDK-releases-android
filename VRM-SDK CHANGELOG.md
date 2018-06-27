@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Ad load/win detector fix
+- Slot opportunity detector fix
 - vvuid param is missed in ad-engine-flow.gif tracker
 - Slot opportunity pixel implementation
 - Context start pixel fix
@@ -88,11 +90,9 @@ Unreleased
 - Actual logic
 - Tests
 - Logic unit abstraction
-- Actions
 - Removed userAgent and uiHandler;
 - Vrm data fetcher
 - State made immutable
 - Middleware support added
 - VrmResponse parsing business logic
 - Refactor of state
-- Framework application
