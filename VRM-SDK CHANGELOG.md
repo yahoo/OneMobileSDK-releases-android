@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- vvuid param is missed in ad-engine-flow.gif tracker
 - Slot opportunity pixel implementation
 - Context start pixel fix
 - Store wireup with logic at VRMSDK constructor
@@ -95,5 +96,3 @@ Unreleased
 - VrmResponse parsing business logic
 - Refactor of state
 - Framework application
-- Logic and reducers
-- Parse Group
