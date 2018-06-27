@@ -5,6 +5,7 @@ Unreleased
 ----------
 - Make `vid` parameter not required
 - vvuid param is missed in ad-engine-flow.gif tracker
+- Updated test app
 - Add AdRequestDetector
 - Add AdViewabilityDetector
 - Context start tracking pixel
@@ -93,13 +94,9 @@ Unreleased
 - Main state
 - Redux core classes
 - Debug flag moved to VRMContext
-- Lib package change
 - Parse Group
 - Create vrm url
 - Update public API for initial release
 - SDK internal framework
 - Licencse update
-- Add stubs for VRM sdk
 - Public API tracking hookup
-- remove MainThread annotation
-- Update README.md
