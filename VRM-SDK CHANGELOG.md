@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Proper hard timeout fire timing
 - Make `vid` parameter not required
 - vvuid param is missed in ad-engine-flow.gif tracker
 - Updated test app
@@ -93,10 +94,7 @@ Unreleased
 - Actions and observers
 - Main state
 - Redux core classes
-- Debug flag moved to VRMContext
 - Parse Group
 - Create vrm url
 - Update public API for initial release
 - SDK internal framework
-- Licencse update
-- Public API tracking hookup
