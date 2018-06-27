@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Empty ads fix
 - Lower case BATS beacons name
 - Load win detector fix
 - Fix of content duration update
@@ -89,7 +90,4 @@ Unreleased
 - Parse XML
 - LogicUnit refactor
 - One more requirement added
-- VrmResult hard timeout logic moved to reducer
 - Removed userAgent and uiHandler;
-- Vrm data fetcher
-- State made immutable
