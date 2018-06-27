@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Make `vid` parameter not required
+- vvuid param is missed in ad-engine-flow.gif tracker
 - Add AdRequestDetector
 - Add AdViewabilityDetector
 - Context start tracking pixel
@@ -100,5 +102,4 @@ Unreleased
 - Add stubs for VRM sdk
 - Public API tracking hookup
 - remove MainThread annotation
-- Updated package name, names of classes, license
 - Update README.md
