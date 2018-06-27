@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fix of content duration update
 - Ad load/win detector fix
 - Slot opportunity detector fix
 - vvuid param is missed in ad-engine-flow.gif tracker
@@ -89,10 +90,8 @@ Unreleased
 - VrmResult hard timeout logic moved to reducer
 - Actual logic
 - Tests
-- Logic unit abstraction
 - Removed userAgent and uiHandler;
 - Vrm data fetcher
 - State made immutable
 - Middleware support added
 - VrmResponse parsing business logic
-- Refactor of state
