@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Lower case BATS beacons name
 - Load win detector fix
 - Fix of content duration update
 - Ad load/win detector fix
@@ -89,8 +90,6 @@ Unreleased
 - LogicUnit refactor
 - One more requirement added
 - VrmResult hard timeout logic moved to reducer
-- Actual logic
 - Removed userAgent and uiHandler;
 - Vrm data fetcher
 - State made immutable
-- Middleware support added
