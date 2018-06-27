@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.3.0 (2018-06-27 18:58:03 +0300)
+---------------------------------
 - Empty ads fix
 - Lower case BATS beacons name
 - Load win detector fix
