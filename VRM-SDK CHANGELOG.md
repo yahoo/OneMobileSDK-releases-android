@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Load win detector fix
 - Fix of content duration update
 - Ad load/win detector fix
 - Slot opportunity detector fix
@@ -89,9 +90,7 @@ Unreleased
 - One more requirement added
 - VrmResult hard timeout logic moved to reducer
 - Actual logic
-- Tests
 - Removed userAgent and uiHandler;
 - Vrm data fetcher
 - State made immutable
 - Middleware support added
-- VrmResponse parsing business logic
