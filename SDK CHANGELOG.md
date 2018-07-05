@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added webView for VPAID ad rendering
 - Connected Vpaid state to properties
 - Added initial state for Vpaid ad
 - Moved AdType parameter from AdState to VrmState
