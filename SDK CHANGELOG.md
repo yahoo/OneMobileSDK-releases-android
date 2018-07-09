@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added initial VPAID callbacks
 - Added webView for VPAID ad rendering
 - Connected Vpaid state to properties
 - Added initial state for Vpaid ad
