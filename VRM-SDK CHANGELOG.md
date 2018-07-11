@@ -1,6 +1,11 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+Unreleased
+----------
+- Update Gemfile
+- Add danger support
+
 1.3.0 (2018-06-27 18:58:03 +0300)
 ---------------------------------
 - Empty ads fix
@@ -65,7 +70,6 @@
 - Detectors update
 - Add AdOpportunityDetector
 - Add AdErrorDetector
-- Add AdTagResponseSuccessDetector
 - Add AdTagResponseFailureDetector
 - Add AdPlaybackViewDetector
 - Add StartAdDetector
@@ -83,11 +87,8 @@
 - LogicUnit refactor
 - Actions refactor
 - Raw AsyncService and Cancellable concept
-- HttpService clean up
 - Fetch XML
 - Ad wrapper support for easy VAST redirects handling
 - Test data for parsing as raw string VrmResult update
 - Parse XML
 - LogicUnit refactor
-- One more requirement added
-- Removed userAgent and uiHandler;
