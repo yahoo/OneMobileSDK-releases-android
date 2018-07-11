@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Ad finish BATS detector fix
 - Update Gemfile
 - Add danger support
 
@@ -70,7 +71,6 @@ Unreleased
 - Detectors update
 - Add AdOpportunityDetector
 - Add AdErrorDetector
-- Add AdTagResponseFailureDetector
 - Add AdPlaybackViewDetector
 - Add StartAdDetector
 - Add AdPlaybackEndDetector
@@ -86,9 +86,6 @@ Unreleased
 - Tests update
 - LogicUnit refactor
 - Actions refactor
-- Raw AsyncService and Cancellable concept
 - Fetch XML
 - Ad wrapper support for easy VAST redirects handling
 - Test data for parsing as raw string VrmResult update
-- Parse XML
-- LogicUnit refactor
