@@ -3,7 +3,7 @@
   <groupId>com.oath.o2.android</groupId>
   <artifactId>vrm-sdk</artifactId>
   <versioning>
-    <release>1.3.0</release>
+    <release>1.3.1</release>
     <versions>
       <version>0.2-SNAPSHOT</version>
       <version>0.1</version>
@@ -17,7 +17,8 @@
       <version>1.2.1-SNAPSHOT</version>
       <version>1.3.0</version>
       <version>1.3.1-SNAPSHOT</version>
+      <version>1.3.1</version>
     </versions>
-    <lastUpdated>20180711123643</lastUpdated>
+    <lastUpdated>20180711164343</lastUpdated>
   </versioning>
 </metadata>

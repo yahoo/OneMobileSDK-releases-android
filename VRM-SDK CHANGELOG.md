@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.3.1 (Wed Jul 11 19:36:20 2018 +0300)
+--------------------------------------
 - Ad finish BATS detector fix
 - Update Gemfile
 - Add danger support
