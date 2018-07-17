@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Crash after integrating with Sports app
 - Networks returned as id, not name for Yahoo Sports Android
 - Remove duplicate detectors
 
