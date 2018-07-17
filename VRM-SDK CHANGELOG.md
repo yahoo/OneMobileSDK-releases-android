@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.3.2 (Tue Jul 17 17:35:13 2018 +0300)
+--------------------------------------
 - Crash after integrating with Sports app
 - Networks returned as id, not name for Yahoo Sports Android
 - Remove duplicate detectors
