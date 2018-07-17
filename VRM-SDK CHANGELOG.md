@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Networks returned as id, not name for Yahoo Sports Android
 - Remove duplicate detectors
 
 1.3.1 (Wed Jul 11 19:36:20 2018 +0300)
@@ -75,7 +76,6 @@ Unreleased
 - Detectors update
 - Add AdOpportunityDetector
 - Add AdErrorDetector
-- Add AdPlaybackViewDetector
 - Add AdPlaybackEndDetector
 - Add AdPlaybackQuartileDetector
 - Added Bats tracking generator for yaml file
@@ -87,6 +87,4 @@ Unreleased
 - AdWrapper parsing
 - Item fetching tests and implementation
 - Tests update
-- LogicUnit refactor
 - Fetch XML
-- Ad wrapper support for easy VAST redirects handling
