@@ -1,6 +1,10 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+Unreleased
+----------
+- Remove duplicate detectors
+
 1.3.1 (Wed Jul 11 19:36:20 2018 +0300)
 --------------------------------------
 - Ad finish BATS detector fix
@@ -72,7 +76,6 @@
 - Add AdOpportunityDetector
 - Add AdErrorDetector
 - Add AdPlaybackViewDetector
-- Add StartAdDetector
 - Add AdPlaybackEndDetector
 - Add AdPlaybackQuartileDetector
 - Added Bats tracking generator for yaml file
@@ -85,7 +88,5 @@
 - Item fetching tests and implementation
 - Tests update
 - LogicUnit refactor
-- Actions refactor
 - Fetch XML
 - Ad wrapper support for easy VAST redirects handling
-- Test data for parsing as raw string VrmResult update
