@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Implemented initial VPAID tracking
 - Connected ad controls to Vpaid ad
 - Added initial VPAID callbacks
 - Added webView for VPAID ad rendering
