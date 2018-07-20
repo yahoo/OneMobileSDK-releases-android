@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added mute unmute pixels
 - Add tracking for all VPAID events
 - Implemented initial VPAID tracking
 - Connected ad controls to Vpaid ad
