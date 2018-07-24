@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Implement AdUser tracking for VPAID advertisement
 - Added AdSkip pixels
 - Added mute unmute pixels
 - Add tracking for all VPAID events
