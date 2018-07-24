@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Refactored vpaid js
 - Implement AdUser tracking for VPAID advertisement
 - Added AdSkip pixels
 - Added mute unmute pixels
