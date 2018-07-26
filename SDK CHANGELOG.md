@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- VPAID midroll buffering fix
 - Add trk tracking for VPAID events
 - Refactored vpaid js
 - Implement AdUser tracking for VPAID advertisement
