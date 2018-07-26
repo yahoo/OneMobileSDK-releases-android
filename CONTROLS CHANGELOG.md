@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Made vpaid ad clickable
 - Splitted seekbar and timeLeft visibility properties
 
 1.16 (2018-06-08 17:44:42 +0300)
@@ -71,4 +72,3 @@ Unreleased
 --------------------------------
 - Proguard support
 - Android gradle plugin 3.0.0 support
-- Android gradle plugin update to 3.0.0
