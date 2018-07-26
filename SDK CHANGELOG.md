@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Made vpaid ad clickable
 - VPAID midroll buffering fix
 - Add trk tracking for VPAID events
 - Refactored vpaid js
