@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Make EmbedClickThrough work with vpaid advertisement
 - Made vpaid ad clickable
 - VPAID midroll buffering fix
 - Add trk tracking for VPAID events
