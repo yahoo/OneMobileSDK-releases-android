@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Implemented processing of unsupported VPAID ad
 - Make EmbedClickThrough work with vpaid advertisement
 - Made vpaid ad clickable
 - VPAID midroll buffering fix
