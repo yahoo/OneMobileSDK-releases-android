@@ -3,6 +3,12 @@
 
 Unreleased
 ----------
+- Chromecast fix
+- Binder refactor
+- Attach/detach PlayerView state, frame visibility state, middleware for sdk behavior modification
+- Http service update to Java 1.8 and job dispatching using ExecutorService
+- Tests update
+- Environment bump to latest version
 - Vpaid webview initialization fix
 - AdViewTime tracking for VPAID
 - AdViewTime pixels has wrong t param
