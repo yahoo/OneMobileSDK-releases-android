@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Vpaid webview initialization fix
 - AdViewTime tracking for VPAID
 - AdViewTime pixels has wrong t param
 - Implemented processing of unsupported VPAID ad
