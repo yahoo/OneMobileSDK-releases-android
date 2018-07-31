@@ -3,7 +3,6 @@
 
 Unreleased
 ----------
-- Revert to Java 1.7
 - Added Chromecast dependency version check
 - Minimal controls flavor (#68)
 - Made vpaid ad clickable
@@ -69,3 +68,7 @@ Unreleased
 - Naming update
 - Update assertj-core to 3.3.0
 - Travis update
+- Update to 27th platform API
+
+1.11 (2017-11-10 18:17:21 +0200)
+--------------------------------
