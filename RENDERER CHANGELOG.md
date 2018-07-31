@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Environment bump to latest version
 - Added API for tracking visibility of video frames
 
 2.12 (2018-05-22 17:07:16 +0300)
@@ -85,8 +86,3 @@ Unreleased
 
 2.6.1 (Tue Sep 12 18:00:17 2017 +0300)
 --------------------------------------
-- NullPointerException Attempt to invoke virtual method 'long java.lang.Long.longValue()'
-- Pipeline for track changing
-
-2.5 (Mon Aug 21 19:33:28 2017 +0300)
-------------------------------------
