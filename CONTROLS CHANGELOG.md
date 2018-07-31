@@ -3,6 +3,8 @@
 
 Unreleased
 ----------
+- Added Chromecast dependency version check
+- Minimal controls flavor (#68)
 - Made vpaid ad clickable
 - Splitted seekbar and timeLeft visibility properties
 
@@ -70,5 +72,3 @@ Unreleased
 
 1.11 (2017-11-10 18:17:21 +0200)
 --------------------------------
-- Proguard support
-- Android gradle plugin 3.0.0 support
