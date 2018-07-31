@@ -5,38 +5,38 @@
   <version>1.17-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180731.160802</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20180731.164240</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20180731160802</lastUpdated>
+    <lastUpdated>20180731164240</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.17-20180731.160802-3</value>
-        <updated>20180731160802</updated>
+        <value>1.17-20180731.164240-4</value>
+        <updated>20180731164240</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.17-20180731.160802-3</value>
-        <updated>20180731160802</updated>
+        <value>1.17-20180731.164240-4</value>
+        <updated>20180731164240</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.17-20180731.160802-3</value>
-        <updated>20180731160802</updated>
+        <value>1.17-20180731.164240-4</value>
+        <updated>20180731164240</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.17-20180731.160802-3</value>
-        <updated>20180731160802</updated>
+        <value>1.17-20180731.164240-4</value>
+        <updated>20180731164240</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>pubapi</classifier>
         <extension>json</extension>
-        <value>1.17-20180731.160802-3</value>
-        <updated>20180731160802</updated>
+        <value>1.17-20180731.164240-4</value>
+        <updated>20180731164240</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
