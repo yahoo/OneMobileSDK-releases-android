@@ -1,6 +1,10 @@
 # OneMobile SDK Renderer release notes
 ======================================
 
+Unreleased
+----------
+- Added API for tracking visibility of video frames
+
 2.12 (2018-05-22 17:07:16 +0300)
 --------------------------------
 - Updated slack token
@@ -86,4 +90,3 @@
 
 2.5 (Mon Aug 21 19:33:28 2017 +0300)
 ------------------------------------
-- Extra renderer check
