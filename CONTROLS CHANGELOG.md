@@ -1,5 +1,5 @@
-# OneMobile SDK Controls release notes
-======================================
+# O2 Controls release notes
+===========================
 
 Unreleased
 ----------
