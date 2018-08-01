@@ -1,8 +1,9 @@
-# OneMobile SDK Sdk release notes
-=================================
+# O2 Sdk release notes
+======================
 
 Unreleased
 ----------
+- Proguard entry duplication fix
 - Chromecast fix
 - Binder refactor
 - Attach/detach PlayerView state, frame visibility state, middleware for sdk behavior modification
