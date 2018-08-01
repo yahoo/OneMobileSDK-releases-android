@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Chromecast turn off
 - Proguard entry duplication fix
 - Chromecast fix
 - Binder refactor
