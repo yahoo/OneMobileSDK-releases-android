@@ -1,8 +1,9 @@
-# OneMobile SDK Renderer release notes
-======================================
+# O2 Renderer release notes
+===========================
 
 Unreleased
 ----------
+- Build plugin version bump
 - Environment bump to latest version
 - Added API for tracking visibility of video frames
 
@@ -81,8 +82,4 @@ Unreleased
 
 2.6.2 (2017-09-13 14:48:37 +0300)
 ---------------------------------
-- Added automatic seeking to live edge for live videos
 - Group audio tracks by language
-
-2.6.1 (Tue Sep 12 18:00:17 2017 +0300)
---------------------------------------
