@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Chromecast turn off
 - Build plugin version bump
 - Environment bump to latest version
 - Added API for tracking visibility of video frames
@@ -82,4 +83,3 @@ Unreleased
 
 2.6.2 (2017-09-13 14:48:37 +0300)
 ---------------------------------
-- Group audio tracks by language
