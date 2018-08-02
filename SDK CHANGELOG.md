@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- trk/mrc-ad-view.gif is not fired for VPAID ad
 - Middleware and PlayerViewport exposed as public API
 - Chromecast turn off
 - Proguard entry duplication fix
