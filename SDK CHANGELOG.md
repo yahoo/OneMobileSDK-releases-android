@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Middleware and PlayerViewport exposed as public API
 - Chromecast turn off
 - Proguard entry duplication fix
 - Chromecast fix
