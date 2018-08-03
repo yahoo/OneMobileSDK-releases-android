@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Moved CC button closer to video duration label
 - Chromecast turn off
 - Fix zero division crash
 - Added Chromecast dependency version check
@@ -68,4 +69,3 @@ Unreleased
 - Proguard rule fix
 - Chromecast button integration
 - Naming update
-- Update assertj-core to 3.3.0
