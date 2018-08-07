@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Ad playback hungs when user click on ad video without ClickThrough
 - Wrong ac param in video-stats.gif if vpaid ad was played
 - Added isVPAIDAllowed parsing
 - trk/mrc-ad-view.gif is not fired for VPAID ad
