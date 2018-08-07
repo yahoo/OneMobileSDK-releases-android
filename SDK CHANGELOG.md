@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Splitted usage of content and ad pause play
 - Ad playback hungs when user click on ad video without ClickThrough
 - Wrong ac param in video-stats.gif if vpaid ad was played
 - Added isVPAIDAllowed parsing
