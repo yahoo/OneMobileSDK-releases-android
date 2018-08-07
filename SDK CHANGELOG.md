@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Wrong ac param in video-stats.gif if vpaid ad was played
 - Added isVPAIDAllowed parsing
 - trk/mrc-ad-view.gif is not fired for VPAID ad
 - Middleware and PlayerViewport exposed as public API
