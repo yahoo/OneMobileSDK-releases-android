@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fixed content being shown before ad playback
 - Chromecast turn off
 - Build plugin version bump
 - Environment bump to latest version
@@ -78,8 +79,4 @@ Unreleased
 - Update exoplayer to version 2.5.2
 
 2.6.3 (2017-09-13 16:23:10 +0300)
----------------------------------
-- Group audio tracks by language considering id
-
-2.6.2 (2017-09-13 14:48:37 +0300)
 ---------------------------------
