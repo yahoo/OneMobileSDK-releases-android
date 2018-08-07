@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aol.one.publishers.android</groupId>
+  <artifactId>api-tracker-plugin</artifactId>
+  <version>1.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180807.121535</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20180807121535</lastUpdated>
+  </versioning>
+</metadata>
