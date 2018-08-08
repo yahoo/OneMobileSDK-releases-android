@@ -3,6 +3,9 @@
 
 Unreleased
 ----------
+- Javascript callbacks run in main thread
+- Added props update event
+- OMSDK-1406_Vpaid crashes when back is pressed while loading
 - Implemented VPAID props serializer
 - Splitted usage of content and ad pause play
 - Ad playback hungs when user click on ad video without ClickThrough
