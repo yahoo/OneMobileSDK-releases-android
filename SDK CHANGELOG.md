@@ -1,6 +1,10 @@
 # O2 Sdk release notes
 ======================
 
+Unreleased
+----------
+- Implemented parsing of VPAID document url
+
 2.23 (2018-08-09 16:30:52 +0300)
 --------------------------------
 - Release removes Chromecast temporarily. It will return in a future release.
