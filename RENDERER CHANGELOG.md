@@ -1,8 +1,8 @@
 # O2 Renderer release notes
 ===========================
 
-Unreleased
-----------
+2.13 (2018-08-07 14:42:25 +0300)
+--------------------------------
 - Fixed content being shown before ad playback
 - Chromecast turn off
 - Build plugin version bump
