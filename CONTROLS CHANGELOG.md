@@ -1,8 +1,8 @@
 # O2 Controls release notes
 ===========================
 
-Unreleased
-----------
+1.17 (2018-08-03 16:12:39 +0300)
+--------------------------------
 - Moved CC button closer to video duration label
 - Chromecast turn off
 - Fix zero division crash

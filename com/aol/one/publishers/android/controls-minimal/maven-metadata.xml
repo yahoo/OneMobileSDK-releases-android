@@ -3,13 +3,14 @@
   <groupId>com.aol.one.publishers.android</groupId>
   <artifactId>controls-minimal</artifactId>
   <versioning>
-    <release>1.16</release>
+    <release>1.17</release>
     <versions>
       <version>1.15-SNAPSHOT</version>
       <version>1.16-SNAPSHOT</version>
       <version>1.16</version>
       <version>1.17-SNAPSHOT</version>
+      <version>1.17</version>
     </versions>
-    <lastUpdated>20180809102733</lastUpdated>
+    <lastUpdated>20180809131347</lastUpdated>
   </versioning>
 </metadata>
