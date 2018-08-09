@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added parsing for ad startTimeout and maxShowTime
 - Implemented parsing of VPAID document url
 
 2.23 (2018-08-09 16:30:52 +0300)
