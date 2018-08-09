@@ -1,1 +1,1 @@
-# Methods count: 2186 Fields count: 1089
+# Methods count: 1556 Fields count: 1047
