@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Compile crash fix
 - Javascript callbacks run in main thread
 - Added props update event
 - OMSDK-1406_Vpaid crashes when back is pressed while loading
