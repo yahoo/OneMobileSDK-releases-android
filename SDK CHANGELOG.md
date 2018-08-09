@@ -1,8 +1,9 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.23 (2018-08-09 16:30:52 +0300)
+--------------------------------
+- Release removes Chromecast temporarily. It will return in a future release.
 - Compile crash fix
 - Javascript callbacks run in main thread
 - Added props update event
