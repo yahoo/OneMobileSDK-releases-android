@@ -3,6 +3,12 @@
 
 Unreleased
 ----------
+- Fixed tests
+- Fixed tracking
+- Switched to new event model
+- Switched to new Vpaid ViewModel
+- Updated state and properties with new values
+- Removed assets
 - ad-view-time is not fired if vpaid ad was skipped
 - Added new Vpaid native callback model
 - Added parsing for ad startTimeout and maxShowTime
