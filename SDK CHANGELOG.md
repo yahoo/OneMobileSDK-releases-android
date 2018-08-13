@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- ad-view-time is not fired if vpaid ad was skipped
 - Added new Vpaid native callback model
 - Added parsing for ad startTimeout and maxShowTime
 - Implemented parsing of VPAID document url
