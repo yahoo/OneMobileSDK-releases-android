@@ -3,7 +3,9 @@
 
 Unreleased
 ----------
+- Move VrmItemResultFilter out of parser
 - r implementation in pixels
+- VAST 3.0 support
 
 1.3.2 (Tue Jul 17 17:35:13 2018 +0300)
 --------------------------------------
@@ -81,12 +83,9 @@ Unreleased
 - Detectors update
 - Add AdOpportunityDetector
 - Add AdErrorDetector
-- Add AdPlaybackEndDetector
 - Added Bats tracking generator for yaml file
 - Added o2-vrm-sdk-definitions submodule
 - Add bats trackers reporter
 - VrmCallback adapter and tests
 - Services at one place, minor refactoring
-- Stub implementation removal
 - AdWrapper parsing
-- Item fetching tests and implementation
