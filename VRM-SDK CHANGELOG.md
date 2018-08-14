@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.3.3 (Tue Aug 14 15:57:07 2018 +0300)
+--------------------------------------
 - Move VrmItemResultFilter out of parser
 - r implementation in pixels
 - VAST 3.0 support
