@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Vpaid mutes only its own volume
 - Added forwarding of custom vpaid events
 - Fixed tests
 - Fixed tracking
