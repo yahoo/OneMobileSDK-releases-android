@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added forwarding of custom vpaid events
 - Fixed tests
 - Fixed tracking
 - Switched to new event model
