@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added telemetry for Vpaid unique event error
 - Vpaid mutes only its own volume
 - Added forwarding of custom vpaid events
 - Fixed tests
