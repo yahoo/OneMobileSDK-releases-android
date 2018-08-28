@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Handler creation removal
 - Implemented sending of unsupported VPAID error to telemetry
 - Added telemetry for Vpaid unique event error
 - Vpaid mutes only its own volume
