@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Transfer ad timeouts to the native code
 - Handler creation removal
 - Implemented sending of unsupported VPAID error to telemetry
 - Added telemetry for Vpaid unique event error
