@@ -1,6 +1,10 @@
 # O2 Renderer release notes
 ===========================
 
+Unreleased
+----------
+- Bump minimal Android version to 19
+
 2.13 (2018-08-07 14:42:25 +0300)
 --------------------------------
 - Fixed content being shown before ad playback
@@ -76,7 +80,3 @@
 2.6.4 (Wed Sep 20 19:21:10 2017 +0300)
 --------------------------------------
 - ProtocolException: unexpected end of stream
-- Update exoplayer to version 2.5.2
-
-2.6.3 (2017-09-13 16:23:10 +0300)
----------------------------------
