@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added mute and unmute tracking for mp4 ad
 - Added Telemetry for adStartTimeout
 - Transfer ad timeouts to the native code
 - Handler creation removal
