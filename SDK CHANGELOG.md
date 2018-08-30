@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added Telemetry for adStartTimeout
 - Transfer ad timeouts to the native code
 - Handler creation removal
 - Implemented sending of unsupported VPAID error to telemetry
