@@ -1,6 +1,10 @@
 # O2 Controls release notes
 ===========================
 
+Unreleased
+----------
+- Bump minimal Android API to 19
+
 1.17 (2018-08-03 16:12:39 +0300)
 --------------------------------
 - Moved CC button closer to video duration label
@@ -68,4 +72,3 @@
 - cast fix
 - Proguard rule fix
 - Chromecast button integration
-- Naming update
