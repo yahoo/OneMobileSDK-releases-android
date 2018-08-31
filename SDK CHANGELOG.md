@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Implemented sending of AdEngineFlow skipped tracker for Vpaid
 - Implemented support for AdScriptLoaded event
 - Implemented firing of AdEngineFlowStarted on VPAID AdImpression
 - Change minimal Android API version to 19 (KitKat 4.4)
