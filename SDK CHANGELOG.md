@@ -5,6 +5,7 @@ Unreleased
 ----------
 - Change minimal Android API version to 19 (KitKat 4.4)
 - Fixed existing trackers to respect vpaid
+- Vpaid ad is shown under the ad controls
 - Added mute and unmute tracking for mp4 ad
 - Added Telemetry for adStartTimeout
 - Transfer ad timeouts to the native code
