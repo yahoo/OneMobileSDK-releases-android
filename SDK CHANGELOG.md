@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Change minimal Android API version to 19 (KitKat 4.4)
 - Fixed existing trackers to respect vpaid
 - Added mute and unmute tracking for mp4 ad
 - Added Telemetry for adStartTimeout
