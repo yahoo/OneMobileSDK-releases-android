@@ -6,7 +6,9 @@ Unreleased
 - Implemented sending of AdEngineFlow skipped tracker for Vpaid
 - Implemented support for AdScriptLoaded event
 - Implemented firing of AdEngineFlowStarted on VPAID AdImpression
+- Tests added
 - Change minimal Android API version to 19 (KitKat 4.4)
+- VPAID ad engine response is fired as positive instead of negative
 - Fixed existing trackers to respect vpaid
 - Vpaid ad is shown under the ad controls
 - Added mute and unmute tracking for mp4 ad
