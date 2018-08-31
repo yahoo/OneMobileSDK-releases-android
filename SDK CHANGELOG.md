@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Implemented firing of AdEngineFlowStarted on VPAID AdImpression
 - Change minimal Android API version to 19 (KitKat 4.4)
 - Fixed existing trackers to respect vpaid
 - Vpaid ad is shown under the ad controls
