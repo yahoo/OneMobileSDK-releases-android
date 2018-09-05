@@ -5,6 +5,7 @@ Unreleased
 ----------
 - Renamed Vpaid controller to Vpaid runner
 - Fixed mute unmute tracking to work for each ad video
+- Code coverage report generation
 - Fixed infinite spinner for ad with StartTimeout
 - Implemented sending of AdEngineFlow skipped tracker for Vpaid
 - Implemented support for AdScriptLoaded event
