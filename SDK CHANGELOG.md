@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fixed infinite spinner for ad with StartTimeout
 - Implemented sending of AdEngineFlow skipped tracker for Vpaid
 - Implemented support for AdScriptLoaded event
 - Implemented firing of AdEngineFlowStarted on VPAID AdImpression
