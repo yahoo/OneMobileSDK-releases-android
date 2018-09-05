@@ -1,6 +1,10 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+Unreleased
+----------
+- SkipOffset parsing Fix ad duration issue
+
 1.3.3 (Tue Aug 14 15:57:07 2018 +0300)
 --------------------------------------
 - Move VrmItemResultFilter out of parser
@@ -84,8 +88,4 @@
 - Add AdOpportunityDetector
 - Add AdErrorDetector
 - Added Bats tracking generator for yaml file
-- Added o2-vrm-sdk-definitions submodule
-- Add bats trackers reporter
 - VrmCallback adapter and tests
-- Services at one place, minor refactoring
-- AdWrapper parsing
