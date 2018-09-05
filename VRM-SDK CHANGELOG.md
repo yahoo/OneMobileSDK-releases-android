@@ -3,6 +3,10 @@
 
 Unreleased
 ----------
+- Update vrm sdk test app for skip
+- Added ad skip beacons tracking
+- Added ad skip pixel tracking
+- Add ad skip collback logic and isSkipped to ad playback state
 - SkipOffset parsing Fix ad duration issue
 
 1.3.3 (Tue Aug 14 15:57:07 2018 +0300)
@@ -83,9 +87,3 @@ Unreleased
 - Playback actions
 - Initial commit
 - Common code cleanup
-- Added detectort to AdDetectorsReporter
-- Detectors update
-- Add AdOpportunityDetector
-- Add AdErrorDetector
-- Added Bats tracking generator for yaml file
-- VrmCallback adapter and tests
