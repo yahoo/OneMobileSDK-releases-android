@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Allowed mixed content in webview
 - Added VrmStatistics telemetry for Vpaid ad
 - Renamed Vpaid controller to Vpaid runner
 - Fixed mute unmute tracking to work for each ad video
