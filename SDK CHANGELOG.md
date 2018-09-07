@@ -1,8 +1,8 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.24 (2018-09-06 15:48:44 +0300)
+--------------------------------
 - Allowed mixed content in webview
 - Added VrmStatistics telemetry for Vpaid ad
 - Renamed Vpaid controller to Vpaid runner
