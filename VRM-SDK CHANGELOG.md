@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+1.3.4 (Tue Sep 11 18:39:40 2018 +0300)
+--------------------------------------
 - Update vrm sdk test app for skip
 - Added ad skip beacons tracking
 - Added ad skip pixel tracking
