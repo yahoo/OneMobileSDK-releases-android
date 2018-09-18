@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Ads session concept
 - Jacoco and Danger integration
 - Vrm 2.0 parser
 
