@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Jacoco and Danger integration
 - Vrm 2.0 parser
 
 1.3.4 (Tue Sep 11 18:39:40 2018 +0300)
@@ -89,5 +90,3 @@ Unreleased
 - Playback state support
 - Bats beacons initial support
 - Playback actions
-- Initial commit
-- Common code cleanup
