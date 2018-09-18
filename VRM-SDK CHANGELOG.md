@@ -1,6 +1,10 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+Unreleased
+----------
+- Vrm 2.0 parser
+
 1.3.4 (Tue Sep 11 18:39:40 2018 +0300)
 --------------------------------------
 - Update vrm sdk test app for skip
