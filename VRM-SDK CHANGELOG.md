@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- State extension for VRM 2.0
 - Ads session concept
 - Jacoco and Danger integration
 - Vrm 2.0 parser
@@ -90,4 +91,3 @@ Unreleased
 -------------------------------
 - Playback state support
 - Bats beacons initial support
-- Playback actions
