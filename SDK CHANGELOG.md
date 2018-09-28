@@ -1,6 +1,10 @@
 # O2 Sdk release notes
 ======================
 
+Unreleased
+----------
+- Check LICENSE for all files
+
 2.24 (2018-09-06 15:48:44 +0300)
 --------------------------------
 - Allowed mixed content in webview
