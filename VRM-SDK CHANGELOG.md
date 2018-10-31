@@ -1,8 +1,23 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+2.0.0 (2018-10-31 22:58:21 +0200)
+---------------------------------
+- videoWithPrerollSlotWithNoAdsInVast fix
+- Fixed SlotOpp for empty slot
+- Fixed firing SlotOpp multiple times for same ad
+- videoWithNoAdsInVrm fix
+- Fixed SlotOpp detector
+- trk/ad-request.gif fix
+- fix params of trackers in the end of ads
+- Several ads fix
+- Fixed failed media file case
+- Fixed test app
+- Quartile 4 is not fired for videoWithEmptyBumperSlot
+- TestApp update
+- Fixed bats beacons not being reported in TestApp
+- Additional params for ad_view beacon
+- VRM 2.0 initial implementation
 - State extension for VRM 2.0
 - Ads session concept
 - Jacoco and Danger integration
@@ -91,3 +106,103 @@ Unreleased
 -------------------------------
 - Playback state support
 - Bats beacons initial support
+- Playback actions
+- Initial commit
+- Common code cleanup
+- Added detectort to AdDetectorsReporter
+- Detectors update
+- Add AdOpportunityDetector
+- Add AdErrorDetector
+- Add AdTagResponseSuccessDetector
+- Add AdTagResponseFailureDetector
+- Add AdPlaybackViewDetector
+- Add StartAdDetector
+- Add AdPlaybackEndDetector
+- Add AdPlaybackQuartileDetector
+- Added Bats tracking generator for yaml file
+- Added o2-vrm-sdk-definitions submodule
+- Add bats trackers reporter
+- VrmCallback adapter and tests
+- Services at one place, minor refactoring
+- Stub implementation removal
+- AdWrapper parsing
+- Item fetching tests and implementation
+- Tests update
+- LogicUnit refactor
+- Actions refactor
+- Raw AsyncService and Cancellable concept
+- HttpService clean up
+- Fetch XML
+- Ad wrapper support for easy VAST redirects handling
+- Test data for parsing as raw string VrmResult update
+- Parse XML
+- LogicUnit refactor
+- One more requirement added
+- VrmResult hard timeout logic moved to reducer
+- Actual logic
+- Tests
+- Logic unit abstraction
+- Actions
+- Removed userAgent and uiHandler;
+- Vrm data fetcher
+- State made immutable
+- Middleware support added
+- VrmResponse parsing business logic
+- Refactor of state
+- Framework application
+- Logic and reducers
+- Actions and observers
+- Main state
+- Redux core classes
+- Debug flag moved to VRMContext
+- Lib package change
+- Parse Group
+- Create vrm url
+- Update public API for initial release
+- Update public API for initial release
+- SDK internal framework
+- SDK internal framework
+- Licencse update
+- Licencse update
+- Add stubs for VRM sdk
+- Add stubs for VRM sdk
+- Public API tracking hookup
+- Public API tracking hookup
+- remove MainThread annotation
+- remove MainThread annotation
+- Updated package name, names of classes, license
+- Updated package name, names of classes, license
+- Update VrmAd.java
+- Update VrmAd.java
+- SDK interface mockup v2.0
+- SDK interface mockup v2.0
+- SDK interface mockup
+- SDK interface mockup
+- Update README.md
+- Update README.md
+- Common files update
+- Common files update
+- Project files
+- Project files
+- Gradle core files
+- Gradle core files
+- Initial commit
+- Initial commit
+
+0.1 (2018-05-23 17:48:59 +0300)
+-------------------------------
+- Update public API for initial release
+- SDK internal framework
+- Licencse update
+- Add stubs for VRM sdk
+- Public API tracking hookup
+- remove MainThread annotation
+- Updated package name, names of classes, license
+- Update VrmAd.java
+- SDK interface mockup v2.0
+- SDK interface mockup
+- Update README.md
+- Common files update
+- Project files
+- Gradle core files
+- Initial commit
