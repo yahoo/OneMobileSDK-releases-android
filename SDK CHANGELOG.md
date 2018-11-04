@@ -1,8 +1,9 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.24.1 (2018-11-03 21:46:27 -0400)
+----------------------------------
+- Android min API version downgrade to 16
 - Check LICENSE for all files
 
 2.24 (2018-09-06 15:48:44 +0300)
