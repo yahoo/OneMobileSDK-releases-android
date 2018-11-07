@@ -1,6 +1,17 @@
 # O2 Vrm-sdk release notes
 ==========================
 
+Unreleased
+----------
+- Update for workflow tests
+- Update public interface
+- actions update
+- Detectors for icon
+- State to represent when icon view is shown/hidden State to represent icon clickthrough shown/hidden
+- Update public interface with Icons information
+- Merge icons from wrappers inside final inline
+- Parse `Icons` from VAST
+
 2.0.1 (2018-11-06 12:33:04 -0800)
 ---------------------------------
 - Move jacoco checks to debug build type
@@ -77,10 +88,8 @@
 - Content complete tracking pixel
 - Tests update
 - Content start tracking pixel implementation
-- Content viewport size tracking support
 - Add AdViewTimeDetector
 - Test application for VRM SDK
-- Test application for VRM SDK (resources and cleanup)
 
 1.2.0 (2018-06-22 19:42:36 +0300)
 ---------------------------------
