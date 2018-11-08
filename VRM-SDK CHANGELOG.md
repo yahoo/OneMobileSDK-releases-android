@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Fixed ad_oppty to have the same detection logic as adRequest
 - Update for workflow tests
 - Update public interface
 - actions update
@@ -87,11 +88,8 @@ Unreleased
 - Context start tracking pixel
 - Content complete tracking pixel
 - Tests update
-- Content start tracking pixel implementation
 - Add AdViewTimeDetector
-- Test application for VRM SDK
 
 1.2.0 (2018-06-22 19:42:36 +0300)
 ---------------------------------
 - Environment as mandatory field
-- Set of tracking pixels for vrm state tracking and ad playback
