@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Update ExoPlayer to 2.8.4
 - Android min API version downgrade to 16
 
 2.14 (2018-08-30 14:06:26 +0300)
@@ -79,7 +80,3 @@ Unreleased
 - Support for snapshots build
 - Tools update
 - Dynamic renderers detection support
-- Kotlin support added
-
-2.6.4 (Wed Sep 20 19:21:10 2017 +0300)
---------------------------------------
