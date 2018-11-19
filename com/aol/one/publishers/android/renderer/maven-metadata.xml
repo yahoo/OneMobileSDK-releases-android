@@ -36,7 +36,8 @@
       <version>2.14-SNAPSHOT</version>
       <version>2.14</version>
       <version>2.14.1</version>
+      <version>2.15-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181109002131</lastUpdated>
+    <lastUpdated>20181119113913</lastUpdated>
   </versioning>
 </metadata>
