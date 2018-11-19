@@ -1,8 +1,8 @@
 # O2 Controls release notes
 ===========================
 
-1.18.1 (2018-11-03 21:44:37 -0400)
-----------------------------------
+Unreleased
+----------
 - Android min API version downgrade to 16
 
 1.18 (2018-08-31 14:37:18 +0300)
@@ -75,55 +75,3 @@
 - License and copyright update, reformat and imports optimization of sources
 - cast fix
 - Proguard rule fix
-- Chromecast button integration
-- Naming update
-- Update assertj-core to 3.3.0
-- Travis update
-- Update to 27th platform API
-
-1.11 (2017-11-10 18:17:21 +0200)
---------------------------------
-- Proguard support
-- Android gradle plugin 3.0.0 support
-- Android gradle plugin update to 3.0.0
-- Chromecast implementation
-- Support for snapshots build
-- Kotlin support added
-
-1.10 (Wed Sep 20 19:18:43 2017 +0300)
--------------------------------------
-- Live label have to be in upper left corner
-
-1.9.1 (2017-09-13 14:11:47 +0300)
----------------------------------
-- Added live label to livestream video
-- Tracks list scroll issue
-
-1.9 (2017-09-05 16:30:36 +0300)
--------------------------------
-- Controls for track selection
-- Resource update
-
-1.8 (2017-07-19 18:19:46 +0300)
--------------------------------
-- Fixed too small hit-area for <| and |> buttons
-- Fixed wrong initial position of cc container
-
-1.8-alpha (2017-07-03 16:11:42 +0300)
--------------------------------------
-- Bintray migration
-
-1.7 (2017-06-26 17:22:15 +0300)
--------------------------------
-- Fix touch transparency for content controls
-
-1.7-alpha (2017-06-14 18:19:51 +0300)
--------------------------------------
-- Always dispatch touch to controls view
-
-1.6 (2017-05-23 14:03:05 +0300)
--------------------------------
-- AOMSDK-1169 Play button is not visible in case when autoplay is set to False
-- Travis CI settings
-- Template param removal
-- Initial commit
