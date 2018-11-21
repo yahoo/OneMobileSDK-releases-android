@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Ability to set custom ad controls
 - Android min API version downgrade to 16
 
 1.18 (2018-08-31 14:37:18 +0300)
