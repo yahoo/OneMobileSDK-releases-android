@@ -1,8 +1,8 @@
 # O2 Renderer release notes
 ===========================
 
-Unreleased
-----------
+2.15 (Thu Nov 22 17:04:58 2018 +0200)
+-------------------------------------
 - Update ExoPlayer to 2.8.4
 - Android min API version downgrade to 16
 
