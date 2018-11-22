@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Ability to set custom ad controls
 - archive tests before deploy (#745)
 - Test app deployment phase removal
 - Jenkins Auto-commit. Updated TestApp to the latest build of SDK
