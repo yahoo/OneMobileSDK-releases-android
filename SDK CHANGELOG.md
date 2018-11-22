@@ -1,8 +1,42 @@
 # O2 Sdk release notes
 ======================
 
-2.24.1 (2018-11-03 22:05:39 -0400)
-----------------------------------
+Unreleased
+----------
+- Test app deployment phase removal
+- Jenkins Auto-commit. Updated TestApp to the latest build of SDK
+- Fixed submodules and build
+- Update OM SDK Android to version 1.2.5
+- OM does not initiated if it is placed in wrapper
+- OM_SDK_SCRIPT_FETCHING_FAILED fix
+- added OM_SDK_SCRIPT_FETCHING_FAILED telemetry
+- Add omidJs to state
+- Get JS from server
+- Parsing OM scrypt from config
+- Implemented firing verificationNotExecuted tracker for failed OM cases
+- Updated OM binaries to 1.2.4
+- Implemented parsing of verificationNotExecutedTracking from AdVerifications
+- Resume tracker is fired along with pause
+- Add telemetry for OM SDK Error
+- Use single TelemetrySender
+- Init and bind OmSdkReporter in Binder
+- Extra bufferStart tracker from
+- Add telemetry for OM SDK feature
+- Provide ad view for the AdSession
+- Added Loaded ad event triggering
+- Added remaining video events reporting
+- Added new style AdBufferStart and AdBufferEnd detectors
+- Verification update
+- Use parsed OM VAST verification params
+- Enable feature toggle for OM SDK
+- Add OM verification section to state
+- Implemented OM video events triggering with existing new style trackers
+- Add OM VAST verification section parsing
+- Implemented new OMSDK StateObserver
+- Implement feature toggle for OM SDK
+- Open-Measurement-SDK initialization
+- Update ExoPlayer to 2.8.4
+- Ad view is killed by MaxShowTime timeout in case when target URL is opened in embed web view
 - Android min API version downgrade to 16
 - Check LICENSE for all files
 
