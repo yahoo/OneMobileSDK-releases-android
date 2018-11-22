@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- archive tests before deploy (#745)
 - Test app deployment phase removal
 - Jenkins Auto-commit. Updated TestApp to the latest build of SDK
 - Fixed submodules and build
