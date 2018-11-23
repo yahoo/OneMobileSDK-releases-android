@@ -1,8 +1,8 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.25 (Thu Nov 22 18:28:53 2018 +0200)
+-------------------------------------
 - Ability to set custom ad controls
 - archive tests before deploy (#745)
 - Test app deployment phase removal
