@@ -1,8 +1,8 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+2.0.2 (2018-11-26 14:33:04 +0200)
+---------------------------------
 - Fixed ad_oppty to have the same detection logic as adRequest
 - Update for workflow tests
 - Update public interface
