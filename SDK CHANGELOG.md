@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Upscale fix
 - Implemented proper parsing of all external subtitles
 
 2.25 (Thu Nov 22 18:28:53 2018 +0200)
