@@ -1,6 +1,10 @@
 # O2 Renderer release notes
 ===========================
 
+Unreleased
+----------
+- Upscale fix
+
 2.15 (Thu Nov 22 17:04:58 2018 +0200)
 -------------------------------------
 - Update ExoPlayer to 2.8.4
@@ -79,4 +83,3 @@
 - OMSDK-302 Chromecast implementation
 - Support for snapshots build
 - Tools update
-- Dynamic renderers detection support
