@@ -1,6 +1,12 @@
 # O2 Renderer release notes
 ===========================
 
+Unreleased
+----------
+- Add language to TextTrack
+- Subtitle type support of renderer
+- Unify way of rendering external and internal subs inside of video renderer
+
 2.15.1 (2018-12-05 16:51:12 +0200)
 ----------------------------------
 - Upscale fix
@@ -82,4 +88,3 @@
 - Move cast renderer to flat renderer
 - OMSDK-302 Chromecast implementation
 - Support for snapshots build
-- Tools update
