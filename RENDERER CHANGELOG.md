@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Proper language title in CC list
 - Add language to TextTrack
 - Subtitle type support of renderer
 - Unify way of rendering external and internal subs inside of video renderer
@@ -86,5 +87,3 @@ Unreleased
 - Android gradle plugin 3.0.0 support
 - Android gradle plugin update to 3.0.0
 - Move cast renderer to flat renderer
-- OMSDK-302 Chromecast implementation
-- Support for snapshots build
