@@ -1,8 +1,17 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.26 (2018-12-12 13:43:13 +0200)
+--------------------------------
+- Proper language title in CC list
+- Implemented telemetry for config json parsing errors
+- Fixed tests
+- Removed sLang and sUrl from all props and models
+- Implemented parsing of subtitle format
+- Submodules update
+
+2.25.1 (2018-12-05 17:45:37 +0200)
+----------------------------------
 - Upscale fix
 - Implemented proper parsing of all external subtitles
 
