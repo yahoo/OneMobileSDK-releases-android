@@ -1,8 +1,8 @@
 # O2 Renderer release notes
 ===========================
 
-Unreleased
-----------
+2.16 (2018-12-12 13:36:09 +0200)
+--------------------------------
 - Proper language title in CC list
 - Add language to TextTrack
 - Subtitle type support of renderer
