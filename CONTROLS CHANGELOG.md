@@ -1,6 +1,10 @@
 # O2 Controls release notes
 ===========================
 
+Unreleased
+----------
+- Added isSkipButtonVisible field
+
 1.19 (Thu Nov 22 17:04:17 2018 +0200)
 -------------------------------------
 - Ability to set custom ad controls
@@ -74,5 +78,3 @@
 - Add titles to all buttons in default controls
 - Update player UI for that state, when video is being streamed to the chromecast
 - License and copyright update, reformat and imports optimization of sources
-- cast fix
-- Proguard rule fix
