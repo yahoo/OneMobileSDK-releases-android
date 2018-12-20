@@ -1,8 +1,12 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
-----------
+3.0.1 (2018-12-20 20:34:30 +0200)
+---------------------------------
+- expn and bckt hotfix
+
+3.0.0 (2018-12-20 17:00:37 +0200)
+---------------------------------
 - Reducers refactoring
 - No ads logic fix
 - Trackers fix
