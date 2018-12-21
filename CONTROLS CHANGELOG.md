@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added ad skip button
 - Added isSkipButtonVisible field
 
 1.19 (Thu Nov 22 17:04:17 2018 +0200)
@@ -77,4 +78,3 @@ Unreleased
 - Video is played on the ChromeCast event if 'isScreenCastingEnabled' is false
 - Add titles to all buttons in default controls
 - Update player UI for that state, when video is being streamed to the chromecast
-- License and copyright update, reformat and imports optimization of sources
