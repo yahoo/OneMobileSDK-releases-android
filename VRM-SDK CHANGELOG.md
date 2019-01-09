@@ -1,7 +1,7 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-Unreleased
+3.0.1 (2019-01-09 18:17:00 +0200)
 ----------
 - Remove unnecessary logs from vrm sdk
 - Issues with proguard configuration in Android library causing logging and debugging issues in apps
