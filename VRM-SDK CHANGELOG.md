@@ -1,9 +1,14 @@
 # O2 Vrm-sdk release notes
 ==========================
 
-3.0.1 (2018-12-20 20:34:30 +0200)
----------------------------------
-- expn and bckt hotfix
+Unreleased
+----------
+- Remove unnecessary logs from vrm sdk
+- Issues with proguard configuration in Android library causing logging and debugging issues in apps
+- Action in one place
+- Stash
+- Actions
+- Kotlin redux refactor
 
 3.0.0 (2018-12-20 17:00:37 +0200)
 ---------------------------------
