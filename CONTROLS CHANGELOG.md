@@ -3,6 +3,9 @@
 
 Unreleased
 ----------
+- Fixed CI build
+- Integrated proper designs for skip button
+- Implemented skip countdown logic and changed the looks a bit
 - Added ad skip button
 - Added isSkipButtonVisible field
 
@@ -75,6 +78,3 @@ Unreleased
 - Update player UI for that state when video is being streamed to the chromecast
 - Chromecast fix
 - Chromecast fix
-- Video is played on the ChromeCast event if 'isScreenCastingEnabled' is false
-- Add titles to all buttons in default controls
-- Update player UI for that state, when video is being streamed to the chromecast
