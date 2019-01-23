@@ -3,7 +3,7 @@
   <groupId>com.aol.one.publishers.android</groupId>
   <artifactId>controls-minimal</artifactId>
   <versioning>
-    <release>1.19</release>
+    <release>1.20</release>
     <versions>
       <version>1.15-SNAPSHOT</version>
       <version>1.16-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>1.19-SNAPSHOT</version>
       <version>1.19</version>
       <version>1.20-SNAPSHOT</version>
+      <version>1.20</version>
     </versions>
-    <lastUpdated>20190123105343</lastUpdated>
+    <lastUpdated>20190123111107</lastUpdated>
   </versioning>
 </metadata>

@@ -1,8 +1,8 @@
 # O2 Controls release notes
 ===========================
 
-Unreleased
-----------
+1.20 (2019-01-23 12:45:58 +0200)
+--------------------------------
 - Fixed CI build
 - Integrated proper designs for skip button
 - Implemented skip countdown logic and changed the looks a bit
