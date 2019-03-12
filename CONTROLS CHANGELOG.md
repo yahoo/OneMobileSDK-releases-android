@@ -1,6 +1,10 @@
 # O2 Controls release notes
 ===========================
 
+Unreleased
+----------
+- Updated accessibility ids for buttons and made skip accessibility id dynamic
+
 1.20 (Wed Jan 23 13:30:16 2019 +0200)
 -------------------------------------
 - Fixed CI build
@@ -76,5 +80,4 @@
 - AssertJ version bump
 - Remove cast logic from controls
 - Update player UI for that state when video is being streamed to the chromecast
-- Chromecast fix
 - Chromecast fix
