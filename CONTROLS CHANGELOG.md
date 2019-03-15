@@ -1,8 +1,8 @@
 # O2 Controls release notes
 ===========================
 
-Unreleased
-----------
+1.21 (2019-03-12 15:13:26 +0200)
+--------------------------------
 - Updated accessibility ids for buttons and made skip accessibility id dynamic
 
 1.20 (Wed Jan 23 13:30:16 2019 +0200)
