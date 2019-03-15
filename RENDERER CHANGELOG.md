@@ -1,6 +1,13 @@
 # O2 Renderer release notes
 ===========================
 
+Unreleased
+----------
+- specify compileSdkVersion
+- another build fix
+- Fixed build
+- Implement switch for embedded cc style
+
 2.16.1 (2018-12-13 17:15:54 +0200)
 ----------------------------------
 - Custom ttml decoder, that makes hours timing optional
@@ -86,7 +93,3 @@
 
 2.7 (2017-11-10 18:11:12 +0200)
 -------------------------------
-- Proguard support
-- Prevent warning in RenderersRegistry
-- Application is crashed when I try to play restricted video
-- Android gradle plugin 3.0.0 support
