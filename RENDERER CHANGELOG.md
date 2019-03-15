@@ -1,8 +1,8 @@
 # O2 Renderer release notes
 ===========================
 
-Unreleased
-----------
+2.18 (2019-03-15 18:19:05 +0200)
+--------------------------------
 - specify compileSdkVersion
 - another build fix
 - Fixed build
