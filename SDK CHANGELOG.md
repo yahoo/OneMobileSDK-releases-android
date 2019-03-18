@@ -1,14 +1,51 @@
 # O2 Sdk release notes
 ======================
 
-2.26.1 (2018-12-12 18:04:23 +0200)
+2.29 (Fri Mar 15 18:43:20 2019 +0200)
+-------------------------------------
+- update renderer
+- release
+- Implement feature-toggle for CC styling
+- Fixed video buffering telemetry being sent again after midroll
+- Updated controls submodule
+- Buffering telemetry only detects initial user waiting time
+- Splitted VRM stats into two entities
+- Added new Ad Buffering Time Detector
+- Added new Vrm Processing Time Detector
+- Implemented State serialization to json
+- Implemented parsing of feature toggle for SDK debugging
+- Updated controls to the ones with proper skip button
+- Update vrm state
+- Make soft and hard timeouts be per `aeg` group, not for all ad processing
+- AOL crashes or ANR intermittently after tapping full screen button on video
+- Parse `maxSearchTime` value from MS
+- Only one ad instead of multiple ads in one queue point are not played
+
+2.28 (Tue Jan 22 18:31:44 2019 +0200)
+-------------------------------------
+- Implemented skip countdown logic
+- cpm base64 decode
+- Use opt for parsing VrmSource params
+- CPM parameter implementation and tracking pixels update
+- Implemented skip button logic
+- Fixed and added tests
+- Implemented progress vast pixel firing
+- Implement skip offset property propagation
+- Implemented parsing of skipoffset
+- Add telemetry for video buffering time
+
+2.27 (Tue Dec 18 15:30:02 2018 +0200)
+-------------------------------------
+- Implement start rendition selection logic
+- Update OM SDK Android to version 1.2.8
+
+2.26.2 (2018-12-13 17:22:15 +0200)
 ----------------------------------
+- Custom ttml decoder, that makes hours timing optional
 - Playlist loop crash fix
 - Removed unnecessary logging
-
-2.26 (2018-12-12 13:43:13 +0200)
---------------------------------
 - Proper language title in CC list
+- Parse all renditions from VAST
 - Implemented telemetry for config json parsing errors
 - Fixed tests
 - Removed sLang and sUrl from all props and models
