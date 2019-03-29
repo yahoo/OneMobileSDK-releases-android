@@ -1,7 +1,7 @@
 # O2 Renderer release notes
 ===========================
 
-2.19 (Fri Mar 29 14:07:30 2019 +0200)
+2.19 (Fri Mar 29 16:46:04 2019 +0200)
 -------------------------------------
 - SDK should ignore the subtitle format if we can’t parse it
 
