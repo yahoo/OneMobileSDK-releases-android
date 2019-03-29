@@ -1,6 +1,10 @@
 # O2 Controls release notes
 ===========================
 
+1.22 (2019-03-29 13:39:05 +0200)
+--------------------------------
+- SDK should ignore the subtitle format if we can’t parse it
+
 1.21 (2019-03-12 15:13:26 +0200)
 --------------------------------
 - Updated accessibility ids for buttons and made skip accessibility id dynamic
@@ -80,4 +84,3 @@
 - AssertJ version bump
 - Remove cast logic from controls
 - Update player UI for that state when video is being streamed to the chromecast
-- Chromecast fix
