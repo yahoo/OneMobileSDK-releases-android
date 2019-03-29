@@ -1,14 +1,17 @@
 # O2 Renderer release notes
 ===========================
 
-Unreleased
-----------
+2.19 (Fri Mar 29 14:07:30 2019 +0200)
+-------------------------------------
 - SDK should ignore the subtitle format if we can’t parse it
 
 2.18 (2019-03-15 18:19:05 +0200)
 --------------------------------
 - specify compileSdkVersion
 - another build fix
+
+2.17 (2019-03-15 16:01:47 +0200)
+--------------------------------
 - Fixed build
 - Implement switch for embedded cc style
 
