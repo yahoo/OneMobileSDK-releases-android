@@ -1,6 +1,10 @@
 # O2 Renderer release notes
 ===========================
 
+Unreleased
+----------
+- SDK should ignore the subtitle format if we can’t parse it
+
 2.18 (2019-03-15 18:19:05 +0200)
 --------------------------------
 - specify compileSdkVersion
@@ -88,8 +92,3 @@
 - Travis update
 - Update assertj-core to 3.3.0
 - Ads on chromecast
-- Chromecast module structure update
-- Update to 27th platform API
-
-2.7 (2017-11-10 18:11:12 +0200)
--------------------------------
