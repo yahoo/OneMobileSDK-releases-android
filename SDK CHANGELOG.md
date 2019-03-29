@@ -1,6 +1,15 @@
 # O2 Sdk release notes
 ======================
 
+2.31 (Fri Mar 29 15:26:28 2019 +0200)
+-------------------------------------
+- SDK should ignore the subtitle format if we can’t parse it
+
+2.30 (Wed Mar 20 18:23:05 2019 +0200)
+-------------------------------------
+- Added sid param to ad start
+- Update om sdk to version 1.2.12 and partner name to Verizonmedia
+
 2.29 (Fri Mar 15 18:43:20 2019 +0200)
 -------------------------------------
 - update renderer
