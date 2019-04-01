@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added propagating of ad skip in case of wrapper
 - Jenkins removal
 - SD migration
 - SDK should ignore the subtitle format if we can’t parse it
