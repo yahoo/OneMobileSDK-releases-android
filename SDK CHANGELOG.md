@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Jenkins removal
 - SD migration
 - SDK should ignore the subtitle format if we can’t parse it
 - Added sid param to ad start
