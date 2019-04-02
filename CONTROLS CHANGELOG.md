@@ -1,6 +1,10 @@
 # O2 Controls release notes
 ===========================
 
+Unreleased
+----------
+- Added APIs for separate color tinting for title and time text elements
+
 1.22 (2019-03-29 13:39:05 +0200)
 --------------------------------
 - SDK should ignore the subtitle format if we can’t parse it
@@ -83,4 +87,3 @@
 --------------------------------
 - AssertJ version bump
 - Remove cast logic from controls
-- Update player UI for that state when video is being streamed to the chromecast
