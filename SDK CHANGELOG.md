@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Revert changelog gen, fix release job
 - Remove changelog generation
 - Added propagating of ad skip in case of wrapper
 - Jenkins removal
