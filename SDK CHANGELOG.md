@@ -1,8 +1,8 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.31.1 (2019-04-02 16:01:47 +0300)
+----------------------------------
 - Revert changelog gen, fix release job
 - Remove changelog generation
 - Added propagating of ad skip in case of wrapper
