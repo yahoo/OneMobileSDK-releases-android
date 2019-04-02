@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Remove changelog generation
 - Added propagating of ad skip in case of wrapper
 - Jenkins removal
 - SD migration
