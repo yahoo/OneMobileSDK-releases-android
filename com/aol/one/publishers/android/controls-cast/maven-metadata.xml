@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aol.one.publishers.android</groupId>
+  <artifactId>controls-cast</artifactId>
+  <versioning>
+    <versions>
+      <version>1.23-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190418140202</lastUpdated>
+  </versioning>
+</metadata>

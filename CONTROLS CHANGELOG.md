@@ -3,6 +3,9 @@
 
 Unreleased
 ----------
+- New cast flavour for chromecast support
+- Sources reorganization
+- Resources reorganization
 - Added APIs for separate color tinting for title and time text elements
 
 1.22 (2019-03-29 13:39:05 +0200)
@@ -86,4 +89,3 @@ Unreleased
 1.12 (2018-01-18 16:15:21 +0200)
 --------------------------------
 - AssertJ version bump
-- Remove cast logic from controls
