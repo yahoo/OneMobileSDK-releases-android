@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.aol.one.publishers.android</groupId>
-  <artifactId>renderer</artifactId>
+  <artifactId>renderer-cast</artifactId>
   <version>2.20-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20190418.140516</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20190418.140514</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20190418140516</lastUpdated>
+    <lastUpdated>20190418140514</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>2.20-20190418.140516-3</value>
-        <updated>20190418140516</updated>
+        <value>2.20-20190418.140514-1</value>
+        <updated>20190418140514</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.20-20190418.140516-3</value>
-        <updated>20190418140516</updated>
+        <value>2.20-20190418.140514-1</value>
+        <updated>20190418140514</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
