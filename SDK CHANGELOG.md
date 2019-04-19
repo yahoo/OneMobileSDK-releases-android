@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Implement spaceid on VVPSDK
 - Chromecast flavour added
 - Cover VpaidPlaybackTest by tests
 - Cover com.aol.mobile.sdk.player.js with tests
