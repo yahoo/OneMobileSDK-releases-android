@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aol.one.publishers.android</groupId>
+  <artifactId>sdk-cast</artifactId>
+  <versioning>
+    <versions>
+      <version>2.31.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190419102728</lastUpdated>
+  </versioning>
+</metadata>
