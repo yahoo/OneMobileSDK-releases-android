@@ -1,8 +1,8 @@
 # O2 Controls release notes
 ===========================
 
-Unreleased
-----------
+1.23 (2019-04-18 16:49:58 +0300)
+--------------------------------
 - New cast flavour for chromecast support
 - Sources reorganization
 - Resources reorganization
