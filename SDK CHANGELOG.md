@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Cover PlayerLogic with tests
 - Cover OneSDKBuilder with tests
 
 2.32 (Fri Apr 19 19:42:11 2019 +0300)
