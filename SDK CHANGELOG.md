@@ -1,7 +1,11 @@
 # O2 Sdk release notes
 ======================
 
-2.32 (Fri Apr 19 17:58:08 2019 +0300)
+Unreleased
+----------
+- Cover OneSDKBuilder with tests
+
+2.32 (Fri Apr 19 19:42:11 2019 +0300)
 -------------------------------------
 - Implement spaceid on VVPSDK
 - Chromecast flavour added
@@ -16,21 +20,15 @@
 - Cover BrandedContentTrackersReporter with tests
 - Cover AdDetectorsReporter with tests
 - Enable jacocoTestReport
-- Revert changelog gen, fix release job
 
-2.31.1 (2019-04-02 15:33:12 +0300)
+2.31.1 (2019-04-02 16:01:47 +0300)
 ----------------------------------
+- Revert changelog gen, fix release job
 - Remove changelog generation
 - Added propagating of ad skip in case of wrapper
 - Jenkins removal
 - SD migration
-
-2.31 (Fri Mar 29 15:26:28 2019 +0200)
--------------------------------------
 - SDK should ignore the subtitle format if we can’t parse it
-
-2.30 (Wed Mar 20 18:23:05 2019 +0200)
--------------------------------------
 - Added sid param to ad start
 - Update om sdk to version 1.2.12 and partner name to Verizonmedia
 
@@ -768,11 +766,6 @@
 - Ad detectors
 - HTTP networking
 - HTTP models
-- HTTP json
-- Utils
-- Ads provider
-- VRM stuff
-- Ads utils
 - AOMSDK-862 Flat video is render in 360
 - AOMSDK-867 App is cashed if subtitles returns http404
 - AOMSDK-868 Update ExoPlayer to version 2.1
@@ -894,11 +887,6 @@
 - Ad detectors
 - HTTP networking
 - HTTP models
-- HTTP json
-- Utils
-- Ads provider
-- VRM stuff
-- Ads utils
 - AOMSDK-862 Flat video is render in 360
 - AOMSDK-867 App is cashed if subtitles returns http404
 - AOMSDK-868 Update ExoPlayer to version 2.1
@@ -1018,11 +1006,6 @@
 - Ad detectors
 - HTTP networking
 - HTTP models
-- HTTP json
-- Utils
-- Ads provider
-- VRM stuff
-- Ads utils
 - AOMSDK-862 Flat video is render in 360
 - AOMSDK-867 App is cashed if subtitles returns http404
 - AOMSDK-868 Update ExoPlayer to version 2.1
@@ -1430,8 +1413,86 @@ v1.0.0 (Tue Jun 28 20:12:15 2016 +0300)
 - Ad flow tests
 - Ad request tests
 - Rework of scale to fit
-- Show/hide func restore
 - Ad flow metrics
+- Ad playback resume fixup
+- Pull request fixes.
+- Added video-decile.gif parameters test.
+- Timeout update
+- Dont cancel tasks on success response or hardtimeout
+- ad response with time
+- ad request params
+- Tests fix
+- ad request right params
+- ad requests
+- Remove unused params
+- Ad request metric
+- Added test for video-quartile.gif parameters.
+- RC2 release
+- Autoplay fixup for preroll
+- Request fixup
+- Replay preroll fixup
+- Autoplay fixup for preroll
+- AdSettings parse error, overlapping settings
+- Ad settings id parse fixup
+- Preroll tests fixup
+- Content video started on beckground fix
+- Preroll fixup
+- Provider, fetcher, parser rework
+- Preroll support
+- VRM url in environment
+- AOMSDK-319 Fetch Video Ad Settings for all videos in playlist in one request
+- AOMSDK-308 Ads orevlay
+- video buffering fix
+- AOMSDK-304 Ad Manager
+- Added Gradle integration guide
+- Removing source codes uploading
+- Vrm fetcher
+- AOMSDK-296 Get AdSettings data
+- Vrm parser update
+- Vrm and vast simple parsers
+- enable/disable button refactoring
+- Colors update
+- AOMSDK-283 Custom controls visibility
+- Enable/disable of buttons instead of show hide.
+- Show hide on tap
+- Custom actions as Rannables
+- AOMSDK-281 Next/Previous Buttons custom behavior
+- Controls design update
+- buffering update
+- Tests update
+- Video duration in seeker
+- buffered video progress
+- Controls visibility update
+- Empty state
+- Presenters update
+- N sec controls view interfaces and presenters
+- AOMSDK-241 video-stats and video-time pixels are fired with incorrect value in 't' parameter if video was in end state for some time
+- Reworking dependencies (#68)
+- Updated tests to use test helper classes.
+- LogEntries integration (#44)
+- AOMSDK-256 Button halo
+- AOMSDK-255 "Back 10 Sec", "Forward 10 Sec" buttons
+- Presenter and logic for ad video presentation (#60)
+- AOMSDK-241 video-stats and video-time pixels are fired with incorrect value in 't' parameter if video was in end state for some time
+- startseek is not mandatory for seeking
+- AOMSDK-206 Play video from specific position
+- AOMSDK-240 Video-time tracker is fired for non played video
+- environment fix
+- Default sdk
+- Environment
+- Refactored Subtitles integration tests. Added more subtitles tests.
+- Updated SubtitlesControlsTest
+- Merge branch 'master' into fearute/Controls-design-color
+- Controls design color
+- AOMSDK-210 Video controls with subtitles disappear after clicking on VideoPlayer empty area
+- AOMSDK-192 quartile 4 and decile 10 are fired for the last video in playlist only
+- AOMSDK-189 video-time pixel is fired with 0 if user leaves player in the middle of video playback
+- Javadoc for properties
+- Tests update
+- Moving to properties
+- Replay fix
+- layout fix
+- code
 
 v1.0.0-rc2 (Mon May 23 16:47:21 2016 +0300)
 -------------------------------------------
@@ -1514,96 +1575,3 @@ v1.0.0-rc2 (Mon May 23 16:47:21 2016 +0300)
 - Replay fix
 - layout fix
 - code
-- xml
-- Images
-- AOMSDK-207
-- update
-- Subtitles update
-- Controls decomposition
-- Updated method names.
-- VrmAdServices implementation
-- Pure function for core decisions
-- ExoStreamView fix
-- Vrm ad provider logic implementation
-- Merge remote-tracking branch 'origin/feature/bintray-integration'
-- use specific version of the dependencies, comment out the javadocJar part, it seems some of the comment for Javadoc contains HTML tags which cause the javadoc task failing.
-- Update of integration guide
-- Presenter fix, new test
-- Subtitles presenter
-- Added tests for DataFetcher.
-- CC button
-- Public playback listeners, state properties, states delta
-- Added tests for Precondition class.
-- pid, bcid as param
-- addErrorListener
-- AOMSDK-101 Playlist/Video is started from the beginning after changing device orientation
-- presenter integration tests
-- AOMSDK-175 Pause button disappears after clicking re-play button
-- AOMSDK-125 video-time.gif is not fired on video-end AOMSDK-126 Video trackers are not fired on video re-play
-- Hls support
-- javadoc update
-- buffer update renderer update
-- Error handling
-- Slight refactoring
-- Interfaces fasade
-- pegdown-doclet used to generate javadoc
-- AOMSDK-153 Decile and Quartile sends after video was played
-- Decile and Quartile detectors with playing
-- AOMSDK-142 Fire video play time detector when replay action is fired. AOMSDK-140 Reset detectors on replay action fired. AOMSDK-149 Count repeated videos for Playlist Statistic detector
-- Introduction guide
-- Travis javadoc deploy test fixup
-- Travis javadoc deploy test fixup
-- Travis javadoc deploy test
-- Travis javadoc deploy test
-- Travis deploy for Javadoc
-- Javadoc generation using Doclava
-- Initial commit
-- Docs update
-- Video provider
-- Detectors
-- Controls presenter
-- Huge refactoring
-- Initial commit
-- Rebase to master
-- Presenter and view for playback controls VideoObject can now be bind to PlayerFragment directly
-- Public interfaces for events and view with media controls
-- Sdk update
-- Real data
-- Test fixup after rebase
-- Prerolls and post rolls, WIP
-- Ads framework, WIP
-- Send video play pixel each time in playlist
-- bintray integration
-- refactoring
-- VideoStatsPixel, VideoTimePixel
-- Generate Pixels
-- Implementation of next and previous buttons for playlist navigation
-- Added Playlist url builder, Playlist parser
-- Fixup
-- Guard syntax tryout
-- Guard syntax tryout
-- Prev and next actions
-- Merge feature/video_seek_state into master
-- Seek and replay functionality
-- Media controller refactoring
-- Test updates
-- Structure refactroing
-- Added VideoInfoParser
-- Init DataFetcher
-- Init UrlBuilder
-- ExoPlayer init
-- Init for fragment and resources
-- Squash of commits
-- Moved to immutable objects
-- SDK test added
-- Moved to immutable objects
-- Merge branch 'feature/playback_state' of github.com:vidible/mobile-sdk-android into feature/playback_state
-- Playback state implementation
-- Added autoplay flag
-- Video object
-- Logger removed
-- Playback state implementation
-- Add ignore for IntelliJ modules
-- Add ignore for IntelliJ modules
-- Initial setup of empty library module and travis integration for it
-- Initial commit
