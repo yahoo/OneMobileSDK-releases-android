@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Add flavor support to testReports for VVP SDK
 - Cover PlayerLogic with tests
 - Cover OneSDKBuilder with tests
 
