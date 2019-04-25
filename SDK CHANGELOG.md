@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Cover OneSDK with tests
 - Cover Pixels with tests
 - Add flavor support to testReports for VVP SDK
 - Cover PlayerLogic with tests
