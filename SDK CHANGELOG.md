@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Cover PlayerBuilder with tests
 - Increased test coverage in AdManager
 - Cover OneSDK with tests
 - Cover Pixels with tests
