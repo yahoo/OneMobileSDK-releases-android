@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Increased test coverage in AdManager
 - Cover OneSDK with tests
 - Cover Pixels with tests
 - Add flavor support to testReports for VVP SDK
