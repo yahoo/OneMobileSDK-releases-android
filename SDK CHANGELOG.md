@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Covered vpaid logic with tests
 - Cover PlayerBuilder with tests
 - Increased test coverage in AdManager
 - Cover OneSDK with tests
