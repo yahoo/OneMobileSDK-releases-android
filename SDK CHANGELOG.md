@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Added coverage in state serializer
 - Covered telemetry serializers with tests
 - Covered vpaid logic with tests
 - Cover PlayerBuilder with tests
