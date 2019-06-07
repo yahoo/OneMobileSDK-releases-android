@@ -3,6 +3,7 @@
 
 Unreleased
 ----------
+- Mitigate playback issues on low-end Amazon Fire TV devices
 - Added coverage in state serializer
 - Covered telemetry serializers with tests
 - Covered vpaid logic with tests
