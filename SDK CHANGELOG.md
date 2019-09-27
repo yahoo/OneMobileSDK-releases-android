@@ -3,6 +3,29 @@
 
 Unreleased
 ----------
+- grgit
+- Update build.gradle
+- Update build.gradle
+- test
+- Restore older one
+- Update build.gradle
+- ch3: uploadarchives
+- ch2: apply plugin
+- Ch1: buildcore and repos
+
+2.34 (2019-09-26 20:54:56 -0700)
+--------------------------------
+- update version
+- disabling ads on low end devices
+- disabling ads on low end devices
+- update version
+- unit tests
+- update renderer commit
+- expose playback error details
+- expose playback error details
+
+2.33 (2019-06-07 17:07:44 +0300)
+--------------------------------
 - Mitigate playback issues on low-end Amazon Fire TV devices
 - Added coverage in state serializer
 - Covered telemetry serializers with tests
