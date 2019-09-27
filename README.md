@@ -289,7 +289,7 @@ dependencies {
     // Chromecast
     compile 'com.aol.one.publishers.android:chromecast:1.0'
 
-    // ...   
+    // ....   
 }
 ```
 
