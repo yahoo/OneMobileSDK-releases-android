@@ -1,8 +1,8 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.34 (2019-09-27 15:59:37 -0700)
+--------------------------------
 - grgit
 - Update build.gradle
 - Update build.gradle
@@ -12,9 +12,6 @@ Unreleased
 - ch3: uploadarchives
 - ch2: apply plugin
 - Ch1: buildcore and repos
-
-2.34 (2019-09-26 20:54:56 -0700)
---------------------------------
 - update version
 - disabling ads on low end devices
 - disabling ads on low end devices
