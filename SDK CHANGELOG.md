@@ -4,7 +4,7 @@
 2.34 (Sept 30 2019)
 ----------
 - Implement player api to expose better error details. 
-  player.addErrorInfoListener(@NonNull ErrorInfoListener listener)
+  * player.addErrorInfoListener(@NonNull ErrorInfoListener listener)
 - Enable/Disable Ads based on renderer capability.  
 
 2.33
