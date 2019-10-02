@@ -1,7 +1,12 @@
 # O2 Sdk release notes
 ======================
+2.34
+----------
+- Implement player api to expose better error details. 
+  player.addErrorInfoListener(@NonNull ErrorInfoListener listener)
+- Enable/Disable Ads based on renderer capability.  
 
-Unreleased
+2.33
 ----------
 - Mitigate playback issues on low-end Amazon Fire TV devices
 - Added coverage in state serializer
