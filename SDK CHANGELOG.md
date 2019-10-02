@@ -1,6 +1,7 @@
 # O2 Sdk release notes
 ======================
-2.34
+
+2.34 (Sept 30 2019)
 ----------
 - Implement player api to expose better error details. 
   player.addErrorInfoListener(@NonNull ErrorInfoListener listener)
