@@ -1,6 +1,16 @@
 # O2 Sdk release notes
 ======================
 
+Unreleased
+----------
+- rename
+- rename
+- version update
+- unit tests
+- pick progress from timeposition
+- recovery
+- recovery
+
 2.34 (2019-09-27 15:59:37 -0700)
 --------------------------------
 - grgit
