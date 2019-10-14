@@ -5,6 +5,8 @@ Unreleased
 ----------
 - rename
 - rename
+- remove unintended change
+- append service error info with HttpServicException
 - version update
 - unit tests
 - pick progress from timeposition
