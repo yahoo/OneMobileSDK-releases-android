@@ -5,6 +5,17 @@
 --------------------------------
 - added retry() api
 - expose service level error details
+  - HttpServiceException.resposeJson will have the details
+  - Sample json - {
+    "status": "ERROR",
+    "errors": [
+         {
+            "errorCode": "15",
+            "message": "Invalid Request Error",
+            "description": "bundleId cannot be null"
+         }
+       ]
+    }
 
 2.34 (2019-09-27 15:59:37 -0700)
 --------------------------------
