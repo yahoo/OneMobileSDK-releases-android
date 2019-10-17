@@ -1,8 +1,8 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.35 (2019-10-14 15:19:54 -0700)
+--------------------------------
 - rename
 - rename
 - remove unintended change
