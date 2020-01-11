@@ -1,24 +1,40 @@
 # O2 Sdk release notes
 ======================
 
+Unreleased
+----------
+- Jenkins Auto-commit. Updated TestApp to the latest build of SDK
+
 2.35 (2019-10-14 15:19:54 -0700)
 --------------------------------
-- added retry() api
-- expose service level error details
-  - HttpServiceException.resposeJson will have the details
-  - Sample json - {
-    "status": "ERROR",
-    "errors": [
-         {
-            "errorCode": "15",
-            "message": "Invalid Request Error",
-            "description": "bundleId cannot be null"
-         }
-       ]
-    }
+- rename
+- rename
+- remove unintended change
+- append service error info with HttpServicException
+- version update
+- unit tests
+- pick progress from timeposition
+- recovery
+- recovery
 
 2.34 (2019-09-27 15:59:37 -0700)
 --------------------------------
+- grgit
+- Update build.gradle
+- Update build.gradle
+- test
+- Restore older one
+- Update build.gradle
+- ch3: uploadarchives
+- ch2: apply plugin
+- Ch1: buildcore and repos
+- update version
+- disabling ads on low end devices
+- disabling ads on low end devices
+- update version
+- unit tests
+- update renderer commit
+- expose playback error details
 - expose playback error details
 
 2.33 (2019-06-07 17:07:44 +0300)
