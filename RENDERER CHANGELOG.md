@@ -1,5 +1,22 @@
 # O2 Renderer release notes
 ===========================
+2.23 (2019-10-14 13:39:14 +0200)
+--------------------------------
+- add retry ability to recover from error state
+
+2.22 (2019-09-24 13:39:14 +0200)
+--------------------------------
+- expose playback error info
+
+2.21 (2019-06-07 13:39:14 +0200)
+--------------------------------
+- Initial bitrate added (~1.5 Mbytes/s)
+- Mitigate playback issues on low-end Amazon Fire TV devices
+
+2.20 (2019-04-19 13:39:14 +0200)
+--------------------------------
+- chromecast flavor 
+- Gradle android plugin downgrade
 
 2.19 (2019-03-29 13:39:14 +0200)
 --------------------------------
