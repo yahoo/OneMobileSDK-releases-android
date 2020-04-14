@@ -1,8 +1,8 @@
 # O2 Sdk release notes
 ======================
 
-Unreleased
-----------
+2.36 (2020-04-13 16:34:23 -0700)
+--------------------------------
 - Update sdk-version.gradle
 - Jenkins Auto-commit. Updated TestApp to the latest build of SDK
 - Jenkins Auto-commit. Updated TestApp to the latest build of SDK
