@@ -1,6 +1,14 @@
 # O2 Sdk release notes
 ======================
 
+Unreleased
+----------
+- Merge branch 'branch-2.37' of git.ouroath.com:O2/mobile-sdk-android into branch-2.37
+- user agent fix, ccpa and tcfv2 support, remove led support
+- Merge branch 'master' into branch-2.37
+- Update sdk-version.gradle
+- user agent fix, ccpa and tcfv2 support, remove led support
+
 2.36 (2020-04-13 16:34:23 -0700)
 --------------------------------
 - Update sdk-version.gradle
