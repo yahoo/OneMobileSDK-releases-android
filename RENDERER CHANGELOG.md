@@ -1,5 +1,10 @@
 # O2 Renderer release notes
 ===========================
+
+2.24 (2020-04-15 13:39:14 +0200)
+--------------------------------
+- fix crash when caption with unknown format
+
 2.23 (2019-10-14 13:39:14 +0200)
 --------------------------------
 - add retry ability to recover from error state
