@@ -3,11 +3,9 @@
 
 2.37 (2020-04-15 19:00:43 -0700)
 --------------------------------
-- Merge branch 'branch-2.37' of git.ouroath.com:O2/mobile-sdk-android into branch-2.37
-- user agent fix, ccpa and tcfv2 support, remove led support
-- Merge branch 'master' into branch-2.37
-- Update sdk-version.gradle
-- user agent fix, ccpa and tcfv2 support, remove led support
+- user agent with devide details from build config 
+- ccpa and tcfv2 support through OneSDKBuilder(this).setPrivacy("user_consent"), or reading "IABUSPrivacy_String" from shared preferences
+- remove led support (low end device detection, causing playback latency) 
 
 2.36 (2020-04-13 16:34:23 -0700)
 --------------------------------
