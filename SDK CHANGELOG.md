@@ -1,17 +1,14 @@
 # O2 Sdk release notes
 ======================
 
-2.38 (2020-05-13 19:00:43 -0700)
+2.38 (2020-05-13 10:09:25 -0700)
 --------------------------------
 - Update sdk-version.gradle
-- no other changes but bumped the version to fix renderer version error
 
 2.37 (2020-04-15 19:00:43 -0700)
 --------------------------------
 - Merge branch 'branch-2.37' of git.ouroath.com:O2/mobile-sdk-android into branch-2.37
-- user agent fix, remove led support
-- Added api OneSDKBuilder setPrivacy(@NonNull String privacy), for ccpa and tcfv2 support
-- Send the privacy consent String as defined by IAB https://github.com/InteractiveAdvertisingBureau/USPrivacy/blob/master/CCPA/Version%201.0/US%20Privacy%20String.md
+- user agent fix, ccpa and tcfv2 support, remove led support
 - Merge branch 'master' into branch-2.37
 - Update sdk-version.gradle
 - user agent fix, ccpa and tcfv2 support, remove led support
